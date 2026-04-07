@@ -7,3 +7,70 @@
 body {
   font-family: "Varela Round", sans-serif;
 }
+
+#navbar {
+}
+
+main {
+}
+
+h3 {
+  margin-bottom: 14px;
+}
+
+#pagina-inicio {
+  height: 100vh;
+  background-color: #d5f9de;
+  color: black;
+  padding: 32px;
+}
+
+#pagina-inicio a {
+  color: black;
+}
+
+#portafolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: justify;
+  height: 100vh;
+  background-color: #8fa6cb;
+  color: white;
+  padding: 32px;
+}
+
+#portafolio div {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+#portafolio a {
+  color: white;
+}
+
+#sobre-mi {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: justify;
+  height: 100vh;
+  background-color: #096b72;
+  color: white;
+  padding: 32px;
+}
+
+#cv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: justify;
+  height: 100vh;
+  background-color: #4c3b4d;
+  color: white;
+  padding: 32px;
+}

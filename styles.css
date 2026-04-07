@@ -12,10 +12,11 @@ body {
 aside {
   display: flex;
   align-items: center;
+  background-color: #fbb13c;
   position: sticky;
   top: 0;
   height: 100vh;
-  margin: 0 10vw;
+  padding: 0 10vw;
 }
 
 h3 {
@@ -23,15 +24,22 @@ h3 {
 }
 
 a {
+  font-family: inherit;
   text-decoration: none;
   color: inherit;
+}
+
+ul{
+    font-size: large;
+    font-family: inherit;
+    list-style: none;
 }
 
 #pagina-inicio {
   height: 100vh;
   background-color: #d5f9de;
   color: black;
-  padding: 32px;
+  padding: 60px;
 }
 
 #portafolio {
@@ -43,13 +51,13 @@ a {
   height: 100vh;
   background-color: #8fa6cb;
   color: white;
-  padding: 32px;
+  padding: 60px;
 }
 
 #portafolio div {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 60px;
 }
 
 #portafolio h4 {
@@ -65,7 +73,7 @@ a {
   height: 100vh;
   background-color: #096b72;
   color: white;
-  padding: 32px;
+  padding: 60px;
 }
 
 #cv {
@@ -77,5 +85,5 @@ a {
   height: 100vh;
   background-color: #4c3b4d;
   color: white;
-  padding: 32px;
+  padding: 60px;
 }

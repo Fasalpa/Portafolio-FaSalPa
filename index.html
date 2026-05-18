@@ -1,103 +1,375 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <title>Portafolio Fabián Salamanca</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Fabián Salamanca | Portfolio</title>
   </head>
+
   <body>
-    <aside>
-      <nav>
-        <ul>
-          <li><a href="#pagina-inicio">Inicio</a></li>
-          <li><a href="#portafolio">Portafolio</a></li>
-          <li><a href="#sobre-mi">Sobre mi</a></li>
-          <li><a href="#cv">Formación</a></li>
-        </ul>
-      </nav>
-    </aside>
-    <main>
-      <section id="pagina-inicio">
-        <h1>Fabián Salamanca P.</h1>
-        <p>Desarrollador FullStack</p>
-        <a href="https://github.com/Fasalpa" target="_blank">Github</a>
-        <a
-          href="https://www.linkedin.com/in/robinson-fabian-salamanca-palacio-desarrollador-full-stack/"
-          target="_blank"
-          >Linkedin</a
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+        <a class="navbar-brand logo" href="#"> Fasalpa<span>.</span> </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
         >
-      </section>
-      <section id="portafolio">
-        <h3>Mis trabajos</h3>
-        <div>
-          <a
-            href="https://github.com/handrymoran1/huellas_de_la_pola"
-            target="_blank"
-            ><h4>Huellas de la Pola</h4>
-            <p>HTML | CSS | JavaScript</p></a
-          >
-          <a
-            href="https://github.com/Fasalpa/ConversorDeDivisas"
-            target="_blank"
-            ><h4>Conversor de divisas</h4>
-            <p>Java</p></a
-          >
-          <a href="https://github.com/Fasalpa/tallerContador" target="_blank"
-            ><h4>Contador</h4>
-            <p>HTML | CSS | JavaScript</p></a
-          >
-          <a href="https://github.com/Fasalpa/TallerIntegrador" target="_blank"
-            ><h4>ToDo List</h4>
-            <p>HTML | CSS | JavaScript</p></a
-          >
-          <a href="https://github.com/Fasalpa/ordenadorNumeros" target="_blank"
-            ><h4>Ordenador Números</h4>
-            <p>HTML | CSS | JavaScript</p></a
-          >
-        </div>
-      </section>
-      <section id="sobre-mi">
-        <h3>Esto es un poco sobre mi</h3>
-        <p>
-          Soy estudiante de ing. de Sistemas y de Desarrollo Full Stack Java en
-          Generación Colombia. Con una sólida formación educativa en Gestión de Redes de
-          Datos y un título técnico en sistemas, he acumulado seis años de
-          experiencia profesional en el campo de los sistemas, incluyendo la
-          enseñanza. Me apasiona la tecnología y siempre estoy en busca de
-          nuevas oportunidades para aprender y mejorar en cada proyecto que
-          realizo.
-        </p>
-      </section>
-      <section id="cv">
-        <h3>Formación académica</h3>
-        <div id="contenedor-formacion">
-          <div>
-            <h4>Desarrollador FullStack Java</h4>
-            <p>Generación Colombia</p>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="#inicio">Inicio</a>
+
+            <a class="nav-link" href="#sobre-mi"> Sobre mí </a>
+
+            <a class="nav-link" href="#tecnologias"> Tecnologías </a>
+
+            <a class="nav-link" href="#portafolio"> Portafolio </a>
+
+            <a class="nav-link" href="#cv"> Formación </a>
+
+            <a class="nav-link btn-nav" href="#contacto"> Hablemos </a>
           </div>
-          <div>
-            <h4>Ingeniería de Sistemas</h4>
+        </div>
+      </div>
+    </nav>
+
+    <section id="inicio" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 hero-text">
+            <small> Hola, soy Fabián </small>
+
+            <h1>
+              Desarrollo experiencias web con enfoque
+              <span>visual y funcional.</span>
+            </h1>
+
+            <p>
+              Desarrollador Frontend Junior enfocado en el diseño limpio, la
+              usabilidad y la creación de interfaces web atractivas.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#portafolio" class="btn-custom"> Ver proyectos → </a>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/robinson-fabian-salamanca-palacio-desarrollador-full-stack/"
+                target="_blank"
+              >
+                <img
+                  src="/assets/linkedin-logo.png"
+                  alt="Logo de linkedin"
+                  id="logoLinkedin"
+                />
+              </a>
+
+              <a href="https://github.com/Fasalpa">
+                <img src="/assets/github-logo.png" alt="Logo de Github" />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image-wrapper">
+              <div class="blob"></div>
+
+              <img
+                src="/assets/shoo.png"
+                alt="Fabián Salamanca"
+                class="hero-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="about-section">
+      <div class="container">
+        <div class="section-title">
+          <small>SOBRE MÍ</small>
+
+          <h2>Lo bello no es impresionar, <span>es comunicar.</span></h2>
+        </div>
+
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6">
+            <div class="about-text">
+              <p>
+                Soy desarrollador Full Stack Java en formación en Generation
+                Colombia.
+              </p>
+
+              <p>
+                Tengo experiencia en soporte, redes de datos y enseñanza, lo que
+                me permitió desarrollar habilidades técnicas, comunicación
+                efectiva y resolución de problemas.
+              </p>
+
+              <p>
+                Actualmente sigo aprendiendo y mejorando mis habilidades en
+                desarrollo web, backend con Java y Spring Boot
+              </p>
+              <a href="#" target="_blank" id="btnMasSobreMi" class="btn-custom">
+                CV →
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="backgrowndIcons">
+                  <img
+                    src="/assets/coding.png"
+                    alt="Icono computador con código"
+                    class="iconCard"
+                    style="width: 50px"
+                  />
+                </div>
+                <h3>6+</h3>
+                <p>Proyectos</p>
+              </div>
+
+              <div class="stat-card">
+                <div class="backgrowndIcons">
+                  <img
+                    src="/assets/reading-book.png"
+                    alt="Icono persona leyendo"
+                    class="iconCard"
+                    style="width: 50px"
+                  />
+                </div>
+                <h3>1+</h3>
+                <p>Años aprendiendo</p>
+              </div>
+
+              <div class="stat-card">
+                <div class="backgrowndIcons">
+                  <img
+                    src="/assets/plant.png"
+                    alt="Icono planta creciendo"
+                    class="iconCard"
+                    style="width: 50px"
+                  />
+                </div>
+                <h3>∞</h3>
+                <p>Motivación</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologias">
+      <div class="container">
+        <div class="section-title">
+          <small>STACK</small>
+
+          <h2>Tecnologías y herramientas.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Backend</h3>
+
+            <div class="tags">
+              <span>Java</span>
+              <span>Spring Boot</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Herramientas</h3>
+
+            <div class="tags">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>VS Code</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <h3>Productividad</h3>
+
+            <div class="tags">
+              <span>Notion</span>
+              <span>Trello</span>
+              <span>Miro</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portafolio" class="projects-section">
+      <div class="container">
+        <div class="section-title">
+          <small>PORTAFOLIO</small>
+
+          <h2>Proyectos destacados.</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <div class="project-card">
+            <img src="img/project1.jpg" alt="" />
+
+            <div class="project-content">
+              <span>Frontend</span>
+
+              <h3>Huellas de la Pola</h3>
+
+              <p>
+                Proyecto enfocado en estructura visual, experiencia responsive y
+                diseño moderno.
+              </p>
+
+              <a
+                href="https://github.com/handrymoran1/huellas_de_la_pola"
+                target="_blank"
+              >
+                Ver proyecto →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="img/project2.jpg" alt="" />
+
+            <div class="project-content">
+              <span>Java</span>
+
+              <h3>Conversor de Divisas</h3>
+
+              <p>
+                Aplicación desarrollada en Java enfocada en lógica y consumo de
+                datos.
+              </p>
+
+              <a
+                href="https://github.com/Fasalpa/ConversorDeDivisas"
+                target="_blank"
+              >
+                Ver proyecto →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="img/project3.jpg" alt="" />
+
+            <div class="project-content">
+              <span>Frontend</span>
+
+              <h3>ToDo List</h3>
+
+              <p>
+                Aplicación responsive enfocada en interacción y experiencia de
+                usuario.
+              </p>
+
+              <a
+                href="https://github.com/Fasalpa/TallerIntegrador"
+                target="_blank"
+              >
+                Ver proyecto →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv">
+      <div class="container">
+        <div class="section-title">
+          <small>FORMACIÓN</small>
+
+          <h2>Aprendizaje constante.</h2>
+        </div>
+
+        <div class="education-grid">
+          <div class="education-card">
+            <h3>Desarrollador FullStack Java</h3>
+
+            <p>Generation Colombia</p>
+          </div>
+
+          <div class="education-card">
+            <h3>Ingeniería de Sistemas</h3>
+
             <p>UNAD</p>
           </div>
-          <div>
-            <h4>Tecnólogo Gestión de Redes de Datos</h4>
-            <p>Sena</p>
+
+          <div class="education-card">
+            <h3>Tecnólogo Gestión de Redes</h3>
+
+            <p>SENA</p>
           </div>
-          <div>
-            <h4>Técnico en Sistemas</h4>
-            <p>Sena</p>
+
+          <div class="education-card">
+            <h3>Técnico en Sistemas</h3>
+
+            <p>SENA</p>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
 
-    <script src="app.js"></script>
+    <section id="contacto" class="contact-section">
+      <div class="container">
+        <div class="contact-box">
+          <h2>¿Tienes un proyecto en mente?</h2>
+
+          <p>Me encantaría ayudarte a hacerlo realidad.</p>
+
+          <a href="mailto:psfr97@gmail.com" class="btn-contact"> Hablemos → </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-content">
+        <p>© 2026 Fabián Salamanca.</p>
+
+        <p>Hecho con HTML, CSS y JavaScript.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+
+# Variables de entorno
+.env
+.env.*
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini

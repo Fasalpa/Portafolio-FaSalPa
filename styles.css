@@ -154,6 +154,7 @@ section {
   font-weight: 600;
   transition: 0.3s;
   display: inline-block;
+  align-content: center;
 }
 
 .btn-custom:hover {
@@ -557,7 +558,7 @@ section {
 }
 
 .contact-card{
-    background: var(--white);
+    background: var(--bg-soft);
 
     padding: 60px;
 

@@ -4,6 +4,9 @@
   --bg: #f5efe7;
   --bg-soft: #e9e2d8;
 
+  --nav-bg: rgba(245, 239, 231, 0.8);
+  --nav-border: rgba(0, 0, 0, 0.03);
+
   --green: #a8b18a;
   --green-light: #d7dec8;
 
@@ -18,6 +21,9 @@
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
 
   --radius: 30px;
+
+  --toggle-bg: transparent;
+  --toggle-text: var(--text);
 }
 
 /*RESET*/
@@ -56,10 +62,16 @@ section {
 /*NAVBAR*/
 
 .custom-navbar {
-  background: rgba(245, 239, 231, 0.8);
-  backdrop-filter: blur(12px);
-  padding: 6px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  background: var(--nav-bg);
+  backdrop-filter: blur(18px);
+
+  padding: 8px 0;
+
+  border-bottom: 1px solid var(--nav-border);
+
+  box-shadow:
+    0 8px 25px rgba(51, 49, 49, 0.35),
+    0 1px 0 rgba(214, 138, 87, 0.08);
 }
 
 .logo {
@@ -97,6 +109,25 @@ section {
 
 .btn-nav:hover {
   background: var(--accent-dark);
+}
+
+#cambiarModo{
+    background-color: var(--toggle-bg);
+    color: var(--toggle-text);
+
+    border: none;
+    border-radius: 999px;
+
+    padding: 10px 14px;
+
+    margin-left: 15px;
+
+    transition: all .3s ease;
+}
+
+#cambiarModo:hover{
+    background-color: rgba(214,138,87,.18);
+    transform: translateY(-2px);
 }
 
 /*HERO*/
@@ -251,6 +282,7 @@ section {
 }
 
 .section-title h2 {
+  color: var(--text);
   margin-top: 12px;
   font-size: 3rem;
   line-height: 1.1;
@@ -557,78 +589,78 @@ section {
   border: 2px solid var(--accent);
 }
 
-.contact-card{
-    background: var(--bg-soft);
+.contact-card {
+  background: var(--bg-soft);
 
-    padding: 60px;
+  padding: 60px;
 
-    border-radius: 40px;
+  border-radius: 40px;
 
-    box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
 
-    text-align: center;
+  text-align: center;
 
-    max-width: 850px;
+  max-width: 850px;
 
-    margin: auto;
+  margin: auto;
 }
 
-.contact-card small{
-    color: var(--green);
+.contact-card small {
+  color: var(--green);
 
-    font-weight: 700;
+  font-weight: 700;
 
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
-.contact-card h2{
-    margin: 20px 0;
+.contact-card h2 {
+  margin: 20px 0;
 
-    font-size: 2.8rem;
+  font-size: 2.8rem;
 
-    color: var(--accent-dark);
+  color: var(--accent-dark);
 }
 
-.contact-card p{
-    max-width: 600px;
+.contact-card p {
+  max-width: 600px;
 
-    margin: 0 auto 40px;
+  margin: 0 auto 40px;
 
-    color: var(--text-soft);
+  color: var(--text-soft);
 
-    line-height: 1.9;
+  line-height: 1.9;
 }
 
-.contact-links{
-    display: flex;
+.contact-links {
+  display: flex;
 
-    justify-content: center;
+  justify-content: center;
 
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 
-    gap: 25px;
+  gap: 25px;
 
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-.contact-links a{
-    color: var(--text-soft);
+.contact-links a {
+  color: var(--text-soft);
 
-    font-weight: 600;
+  font-weight: 600;
 }
 
-.contact-links a:hover{
-    color: var(--accent);
+.contact-links a:hover {
+  color: var(--accent);
 }
 
-.contact-buttons{
-    display: flex;
+.contact-buttons {
+  display: flex;
 
-    justify-content: center;
+  justify-content: center;
 
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 
-    gap: 20px;
+  gap: 20px;
 }
 
 .footer {
@@ -650,47 +682,47 @@ section {
   gap: 40px;
 }
 
-.footer-stats{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
+.footer-stats {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 
-    margin:50px;
+  margin: 50px;
 }
 
-.footer-stat{
-    background: var(--white);
+.footer-stat {
+  background: var(--white);
 
-    padding:20px 28px;
+  padding: 20px 28px;
 
-    border-radius:24px;
+  border-radius: 24px;
 
-    box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
 
-    text-align:center;
+  text-align: center;
 
-    min-width:120px;
+  min-width: 120px;
 }
 
-.footer-stat strong{
-    display:block;
+.footer-stat strong {
+  display: block;
 
-    font-size:1.5rem;
+  font-size: 1.5rem;
 
-    color:var(--accent);
+  color: var(--accent);
 }
-.footer-brand h3{
-    color: var(--accent-dark);
+.footer-brand h3 {
+  color: var(--accent-dark);
 }
 
 .footer p,
-.footer a{
-    color: var(--accent-dark);
+.footer a {
+  color: var(--accent-dark);
 }
 
-.footer a:hover{
-    color: var(--green);
+.footer a:hover {
+  color: var(--green);
 }
 
 .footer-brand span {
@@ -711,8 +743,6 @@ section {
 
   gap: 15px;
 }
-
-
 
 .footer a {
   color: (--accent-dark);
@@ -743,6 +773,7 @@ section {
 /*RESPONSIVE DESIGN*/
 
 @media (max-width: 992px) {
+
   .section-title h2 {
     font-size: 2.4rem;
   }
@@ -753,6 +784,7 @@ section {
 }
 
 @media (max-width: 576px) {
+
   section {
     padding: 80px 0;
   }

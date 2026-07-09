@@ -19,763 +19,841 @@
 
     <title>Fabián Salamanca | Portfolio</title>
   </head>
+  <main id="inicio">
+    <body>
+      <a class="skip-link" href="#inicio"> Saltar al contenido principal </a>
+      <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+          <a class="navbar-brand logo" href="#"> Fasalpa<span>.</span> </a>
 
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
-      <div class="container">
-        <a class="navbar-brand logo" href="#"> Fasalpa<span>.</span> </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-label="Abrir menú de navegación"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#inicio">Inicio</a>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="#inicio">Inicio</a>
+              <a class="nav-link" href="#sobre-mi"> Sobre mí </a>
 
-            <a class="nav-link" href="#sobre-mi"> Sobre mí </a>
+              <a class="nav-link" href="#tecnologias"> Tecnologías </a>
 
-            <a class="nav-link" href="#tecnologias"> Tecnologías </a>
+              <a class="nav-link" href="#proyectos"> Proyectos </a>
 
-            <a class="nav-link" href="#portafolio"> Portafolio </a>
+              <a class="nav-link" href="#cv"> Formación </a>
 
-            <a class="nav-link" href="#cv"> Formación </a>
-
-            <a
-              class="nav-link btn-nav"
-              href="./docs/CV-Robinson-Fabian-Salamanca-Palacio.pdf"
+              <a
+                class="nav-link btn-nav"
+                href="./docs/CV-Robinson-Fabian-Salamanca-Palacio.pdf"
+              >
+                CV
+              </a>
+              <a class="nav-link btn-nav" href="mailto:psfr97@gmail.com">
+                Hablemos
+              </a>
+            </div>
+            <button
+              id="cambiarModo"
+              aria-label="Cambiar entre modo claro y modo oscuro"
             >
-              CV
-            </a>
+              🌘
+            </button>
           </div>
-          <button id="cambiarModo">🌘</button>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <section id="inicio" class="hero-section">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 hero-text">
-            <small> Hola, soy Fabián </small>
+      <section id="inicio" class="hero-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 hero-text">
+              <small> Hola, soy Fabián </small>
 
-            <h1>
-              Desarrollo experiencias web con enfoque
-              <span>visual y funcional.</span>
-            </h1>
+              <h1>
+                Desarrollo experiencias web con enfoque
+                <span>visual y funcional.</span>
+              </h1>
 
-            <p>
-              Desarrollador Frontend Junior enfocado en el diseño limpio, la
-              usabilidad y la creación de interfaces web atractivas.
-            </p>
+              <p>
+                Desarrollador Frontend enfocado en el diseño limpio, la
+                usabilidad y la creación de interfaces web atractivas.
+              </p>
 
-            <div class="hero-buttons">
-              <a href="#portafolio" class="btn-custom"> Ver proyectos → </a>
+              <div class="hero-buttons">
+                <a href="#portafolio" class="btn-custom"> Ver proyectos → </a>
+              </div>
+
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/robinson-fabian-salamanca-palacio-desarrollador-full-stack/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/linkedin-logo.png"
+                    alt="Logo de linkedin"
+                    aria-label="Visitar mi perfil de GitHub"
+                    id="logoLinkedin"
+                  />
+                </a>
+
+                <a href="https://github.com/Fasalpa">
+                  <img
+                    src="./assets/github-logo.png"
+                    alt="Logo de Github"
+                    id="logoGithub"
+                  />
+                </a>
+              </div>
             </div>
 
-            <div class="social-links">
+            <div class="col-lg-6">
+              <div class="hero-image-wrapper">
+                <div class="blob"></div>
+
+                <img
+                  src="./assets/shoo.png"
+                  alt="Fabián Salamanca"
+                  class="hero-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="proyectos" class="projects-section">
+        <div class="container">
+          <div class="section-title">
+            <small>LO QUE HE CONSTRUIDO</small>
+            <h2>Proyectos.</h2>
+          </div>
+
+          <div class="projects-grid">
+            <div class="project-card">
+              <img
+                src="assets/TerraViva.png"
+                alt="Imagen de proyecto Terraviva"
+              />
+
+              <div class="project-content">
+                <h3>Huellas de la Pola</h3>
+
+                <p>
+                  Proyecto enfocado en estructura visual, experiencia responsive
+                  y diseño moderno.
+                </p>
+
+                <a
+                  href="https://handrymoran1.github.io/TerraViva/"
+                  target="_blank"
+                  aria-label="Ver proyecto TerraViva"
+                >
+                  Ver despliegue → |
+                </a>
+
+                <a
+                  href="https://github.com/handrymoran1/TerraViva"
+                  target="_blank"
+                  aria-label="Ver repositorio Burger Hub"
+                >
+                  Ver código →
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img
+                src="assets/Burguer-Hub.png"
+                alt="Imagen de proyecto Burguer Hub"
+              />
+
+              <div class="project-content">
+                <h3>Burguer Hub</h3>
+
+                <p>
+                  Página ecommerce venta de hamburguesas con persistencia en
+                  localStorage (hackaton).
+                </p>
+
+                <a
+                  href="https://fasalpa.github.io/Hackathon-1-Grupo-7"
+                  target="_blank"
+                  aria-label="Ver proyecto Burger Hub"
+                >
+                  Ver despliegue → |
+                </a>
+                <a
+                  href="https://github.com/Fasalpa/Hackathon-1-Grupo-7"
+                  target="_blank"
+                  aria-label="Ver repositorio Burger Hub"
+                >
+                  Ver código →
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img
+                src="assets/Todo-List.png"
+                alt="Imagen de proyecto ToDo List"
+              />
+
+              <div class="project-content">
+                <h3>ToDo List</h3>
+
+                <p>
+                  Aplicación responsive enfocada en interacción y experiencia de
+                  usuario.
+                </p>
+
+                <a
+                  href="https://fasalpa.github.io/ToDo-List/"
+                  target="_blank"
+                  aria-label="Ver proyecto Burger Hub"
+                >
+                  Ver despliegue → |
+                </a>
+
+                <a
+                  href="https://github.com/Fasalpa/ToDo-List"
+                  target="_blank"
+                  aria-label="Ver repositorio Burger Hub"
+                >
+                  Ver código →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="about-section">
+        <div class="container">
+          <div class="section-title">
+            <small>SOBRE MÍ</small>
+
+            <h2>Lo bello no es impresionar, <span>es comunicar.</span></h2>
+          </div>
+
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+              <div class="about-text">
+                <p>Soy desarrollador Full Stack Java.</p>
+
+                <p>
+                  Tengo experiencia en soporte, redes de datos y enseñanza, lo
+                  que me permitió desarrollar habilidades técnicas, comunicación
+                  efectiva y resolución de problemas.
+                </p>
+                <p>
+                  Me interesa crear interfaces que puedan ser utilizadas por la
+                  mayor cantidad de personas posible. Por eso este portafolio
+                  incorpora buenas prácticas de accesibilidad como navegación
+                  por teclado, etiquetas semánticas, contraste adecuado y una
+                  paleta amigable para personas con daltonismo.
+                </p>
+                <p>
+                  Actualmente sigo aprendiendo y mejorando mis habilidades en
+                  desarrollo web, backend con Java y Spring Boot.
+                </p>
+                <a
+                  href="./docs/CV-Robinson-Fabian-Salamanca-Palacio.pdf"
+                  target="_blank"
+                  id="btnCv"
+                  class="btn-custom"
+                >
+                  Descargar cv
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="stats-grid">
+                <div class="stat-card">
+                  <div class="backgrowndIcons">
+                    <img
+                      src="./assets/coding.png"
+                      alt="Icono computador con código"
+                      class="iconCard"
+                      style="width: 50px"
+                    />
+                  </div>
+                  <h3>6+</h3>
+                  <p>Proyectos</p>
+                </div>
+
+                <div class="stat-card">
+                  <div class="backgrowndIcons">
+                    <img
+                      src="./assets/reading-book.png"
+                      alt="Icono persona leyendo"
+                      class="iconCard"
+                      style="width: 50px"
+                    />
+                  </div>
+                  <h3>1+</h3>
+                  <p>Años aprendiendo</p>
+                </div>
+
+                <div class="stat-card">
+                  <div class="backgrowndIcons">
+                    <img
+                      src="./assets/plant.png"
+                      alt="Icono planta creciendo"
+                      class="iconCard"
+                      style="width: 50px"
+                    />
+                  </div>
+                  <h3>∞</h3>
+                  <p>Motivación</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tecnologias">
+        <div class="container">
+          <div class="section-title">
+            <small>HABILIDADES</small>
+
+            <h2>Tecnologías y herramientas.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h3>Frontend</h3>
+
+              <div class="tags">
+                <div
+                  class="skill-list"
+                  data-cat="frontend"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                    alt="CSS3-logo"
+                    class="skill-icon css-icon"
+                  />
+
+                  <div class="skill-name">CSS3</div>
+
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="80"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="skill-list"
+                  data-cat="frontend"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                    alt="HTML5-logo"
+                    class="skill-icon html-icon"
+                  />
+
+                  <div class="skill-name">HTML5</div>
+
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="85"
+                      style="width: 85%"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="skill-list"
+                  data-cat="frontend"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                    alt="Js-logo"
+                    class="skill-icon js-icon"
+                  />
+                  <div class="skill-name">JavaScript</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="70"
+                      style="width: 70%"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="skill-list"
+                  data-cat="frontend"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                    alt="Bootstrap-logo"
+                    class="skill-icon bootstrap-icon"
+                  />
+
+                  <div class="skill-name">Bootstrap</div>
+
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="75"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Backend</h3>
+
+              <div class="tags">
+                <div class="skill-list" data-cat="backend data">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                    alt="Python"
+                    class="skill-icon"
+                  />
+                  <div class="skill-name">Python</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="40"
+                      style="width: 40%"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="skill-list"
+                  data-cat="backend"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                    alt="Python"
+                    class="skill-icon"
+                  />
+                  <div class="skill-name">Java</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="74"
+                      style="width: 74%"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="skill-list"
+                  data-cat="backend"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
+                    alt="Python"
+                    class="skill-icon"
+                  />
+                  <div class="skill-name">Spring Boot</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="70"
+                      style="width: 70%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Herramientas</h3>
+
+              <div class="tags">
+                <div
+                  class="skill-list"
+                  data-cat="tools"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                    alt="Git-logo"
+                    class="skill-icon git-icon"
+                  />
+
+                  <div class="skill-name">Git</div>
+
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="75"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="skill-list"
+                  data-cat="tools"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    alt="GitHub-logo"
+                    class="skill-icon github-icon"
+                  />
+
+                  <div class="skill-name">GitHub</div>
+
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="70"
+                      style="width: 70%"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="skill-list"
+                  data-cat="tools"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                    alt="VSCode-logo"
+                    class="skill-icon vscode-icon"
+                  />
+
+                  <div class="skill-name">VS Code</div>
+
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="85"
+                      style="width: 85%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Bases de datos</h3>
+
+              <div class="tags">
+                <div
+                  class="skill-list"
+                  data-cat="data"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+                    alt="SQL"
+                    class="skill-icon"
+                  />
+                  <div class="skill-name">PostgreSQL</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="78"
+                      style="width: 78%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="tags">
+                <div
+                  class="skill-list"
+                  data-cat="data"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                    alt="MySQL"
+                    class="skill-icon"
+                  />
+                  <div class="skill-name">mySQL</div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-fill"
+                      data-w="78"
+                      style="width: 78%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-group">
+              <h3>Productividad</h3>
+
+              <div class="tags">
+                <div
+                  class="skill-list"
+                  data-cat="tools"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg"
+                    alt="Notion-logo"
+                    class="skill-icon"
+                  />
+                  <div class="skill-name">Notion</div>
+                </div>
+
+                <div
+                  class="skill-list"
+                  data-cat="tools"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg"
+                    alt="Trello-logo"
+                    class="skill-icon"
+                  />
+                  <div class="skill-name">Trello</div>
+                </div>
+
+                <div
+                  class="skill-list"
+                  data-cat="tools"
+                  style="
+                    transition:
+                      opacity 0.3s,
+                      transform 0.3s;
+                    opacity: 1;
+                  "
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/miro.svg"
+                    alt="Miro-logo"
+                    class="skill-icon"
+                    style="
+                      filter: invert(24%) sepia(14%) saturate(1450%)
+                        hue-rotate(341deg) brightness(91%) contrast(88%);
+                    "
+                  />
+                  <div class="skill-name">Miro</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cv" class="education-section">
+        <div class="container">
+          <div class="section-title">
+            <small>FORMACIÓN</small>
+
+            <h2>Construyendo conocimiento <span>paso a paso.</span></h2>
+          </div>
+
+          <div class="education-timeline">
+            <div class="education-card">
+              <div class="education-year">SENA</div>
+              <h3>Técnico en Sistemas</h3>
+
+              <p>
+                Primer acercamiento al mundo tecnológico, soporte y
+                mantenimiento de equipos y switch.
+              </p>
+            </div>
+            <div class="education-card">
+              <div class="education-year">SENA</div>
+
+              <h3>Tecnólogo en Gestión de Redes</h3>
+
+              <p>Redes, infraestructura y resolución de problemas técnicos.</p>
+            </div>
+            <div class="education-card">
+              <div class="education-year">Platzi</div>
+              <h3>Desarrollador Full Stack</h3>
+              <p>
+                Formación continua en Platzi, enfocada en desarrollo Full Stack,
+                actualización tecnológica y el fortalecimiento constante de
+                habilidades prácticas.
+              </p>
+            </div>
+            <div class="education-card highlight">
+              <div class="education-year">UNAD</div>
+              <div class="education-year">En proceso</div>
+
+              <h3>Ingeniería de Sistemas</h3>
+
+              <p>
+                Formación universitaria enfocada en desarrollo y pensamiento
+                lógico.
+              </p>
+            </div>
+            <div class="education-card highlight">
+              <div class="education-year">Generation Colombia</div>
+
+              <h3>Desarrollador Full Stack Java</h3>
+
+              <p>Formación intensiva en Java, Spring Boot y desarrollo web.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact-section">
+        <div class="container">
+          <div class="contact-card">
+            <small>CONTACTO</small>
+
+            <h2>¿Construimos algo juntos?</h2>
+
+            <p>
+              Si tienes una idea, buscas colaboración o simplemente quieres
+              conversar sobre tecnología, estaré encantado de escucharte.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:psfr97@gmail.com"> ✉️ psfr97@gmail.com </a>
+
               <a
                 href="https://www.linkedin.com/in/robinson-fabian-salamanca-palacio-desarrollador-full-stack/"
                 target="_blank"
               >
-                <img
-                  src="./assets/linkedin-logo.png"
-                  alt="Logo de linkedin"
-                  id="logoLinkedin"
-                />
+                💼 LinkedIn
               </a>
 
-              <a href="https://github.com/Fasalpa">
-                <img
-                  src="./assets/github-logo.png"
-                  alt="Logo de Github"
-                  id="logoGithub"
-                />
+              <a href="https://github.com/Fasalpa" target="_blank">
+                🐙 GitHub
               </a>
             </div>
-          </div>
 
-          <div class="col-lg-6">
-            <div class="hero-image-wrapper">
-              <div class="blob"></div>
-
-              <img
-                src="./assets/shoo.png"
-                alt="Fabián Salamanca"
-                class="hero-image"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="sobre-mi" class="about-section">
-      <div class="container">
-        <div class="section-title">
-          <small>SOBRE MÍ</small>
-
-          <h2>Lo bello no es impresionar, <span>es comunicar.</span></h2>
-        </div>
-
-        <div class="row align-items-center gy-5">
-          <div class="col-lg-6">
-            <div class="about-text">
-              <p>
-                Soy desarrollador Full Stack Java en formación en Generation
-                Colombia.
-              </p>
-
-              <p>
-                Tengo experiencia en soporte, redes de datos y enseñanza, lo que
-                me permitió desarrollar habilidades técnicas, comunicación
-                efectiva y resolución de problemas.
-              </p>
-
-              <p>
-                Actualmente sigo aprendiendo y mejorando mis habilidades en
-                desarrollo web, backend con Java y Spring Boot.
-              </p>
+            <div class="contact-buttons">
               <a
                 href="./docs/CV-Robinson-Fabian-Salamanca-Palacio.pdf"
-                target="_blank"
-                id="btnCv"
                 class="btn-custom"
               >
                 Descargar cv
               </a>
-            </div>
-          </div>
 
-          <div class="col-lg-6">
-            <div class="stats-grid">
-              <div class="stat-card">
-                <div class="backgrowndIcons">
-                  <img
-                    src="./assets/coding.png"
-                    alt="Icono computador con código"
-                    class="iconCard"
-                    style="width: 50px"
-                  />
-                </div>
-                <h3>6+</h3>
-                <p>Proyectos</p>
-              </div>
-
-              <div class="stat-card">
-                <div class="backgrowndIcons">
-                  <img
-                    src="./assets/reading-book.png"
-                    alt="Icono persona leyendo"
-                    class="iconCard"
-                    style="width: 50px"
-                  />
-                </div>
-                <h3>1+</h3>
-                <p>Años aprendiendo</p>
-              </div>
-
-              <div class="stat-card">
-                <div class="backgrowndIcons">
-                  <img
-                    src="./assets/plant.png"
-                    alt="Icono planta creciendo"
-                    class="iconCard"
-                    style="width: 50px"
-                  />
-                </div>
-                <h3>∞</h3>
-                <p>Motivación</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="tecnologias">
-      <div class="container">
-        <div class="section-title">
-          <small>STACK</small>
-
-          <h2>Tecnologías y herramientas.</h2>
-        </div>
-
-        <div class="skills-grid">
-          <div class="skill-group">
-            <h3>Frontend</h3>
-
-            <div class="tags">
-              <div
-                class="skill-list"
-                data-cat="frontend"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                  alt="CSS3-logo"
-                  class="skill-icon css-icon"
-                />
-
-                <div class="skill-name">CSS3</div>
-
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="80" style="width: 80%"></div>
-                </div>
-              </div>
-              <div
-                class="skill-list"
-                data-cat="frontend"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                  alt="HTML5-logo"
-                  class="skill-icon html-icon"
-                />
-
-                <div class="skill-name">HTML5</div>
-
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="85" style="width: 85%"></div>
-                </div>
-              </div>
-              <div
-                class="skill-list"
-                data-cat="frontend"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                  alt="Js-logo"
-                  class="skill-icon js-icon"
-                />
-                <div class="skill-name">JavaScript</div>
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="70" style="width: 70%"></div>
-                </div>
-              </div>
-              <div
-                class="skill-list"
-                data-cat="frontend"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
-                  alt="Bootstrap-logo"
-                  class="skill-icon bootstrap-icon"
-                />
-
-                <div class="skill-name">Bootstrap</div>
-
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="75" style="width: 75%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skill-group">
-            <h3>Backend</h3>
-
-            <div class="tags">
-              <div class="skill-list" data-cat="backend data">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                  alt="Python"
-                  class="skill-icon"
-                />
-                <div class="skill-name">Python</div>
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="40" style="width: 40%"></div>
-                </div>
-              </div>
-              <div
-                class="skill-list"
-                data-cat="backend"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
-                  alt="Python"
-                  class="skill-icon"
-                />
-                <div class="skill-name">Java</div>
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="74" style="width: 74%"></div>
-                </div>
-              </div>
-              <div
-                class="skill-list"
-                data-cat="backend"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
-                  alt="Python"
-                  class="skill-icon"
-                />
-                <div class="skill-name">Spring Boot</div>
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="70" style="width: 70%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skill-group">
-            <h3>Herramientas</h3>
-
-            <div class="tags">
-              <div
-                class="skill-list"
-                data-cat="tools"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
-                  alt="Git-logo"
-                  class="skill-icon git-icon"
-                />
-
-                <div class="skill-name">Git</div>
-
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="75" style="width: 75%"></div>
-                </div>
-              </div>
-              <div
-                class="skill-list"
-                data-cat="tools"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-                  alt="GitHub-logo"
-                  class="skill-icon github-icon"
-                />
-
-                <div class="skill-name">GitHub</div>
-
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="70" style="width: 70%"></div>
-                </div>
-              </div>
-              <div
-                class="skill-list"
-                data-cat="tools"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
-                  alt="VSCode-logo"
-                  class="skill-icon vscode-icon"
-                />
-
-                <div class="skill-name">VS Code</div>
-
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="85" style="width: 85%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skill-group">
-            <h3>Data</h3>
-
-            <div class="tags">
-              <div
-                class="skill-list"
-                data-cat="data"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
-                  alt="SQL"
-                  class="skill-icon"
-                />
-                <div class="skill-name">PostgreSQL</div>
-                <div class="skill-cat">Base de datos</div>
-                <div class="skill-bar">
-                  <div class="skill-fill" data-w="78" style="width: 78%"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="skill-group">
-            <h3>Productividad</h3>
-
-            <div class="tags">
-              <div
-                class="skill-list"
-                data-cat="tools"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg"
-                  alt="Notion-logo"
-                  class="skill-icon"
-                />
-                <div class="skill-name">Notion</div>
-                <div class="skill-cat">Herramientas</div>
-              </div>
-
-              <div
-                class="skill-list"
-                data-cat="tools"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original.svg"
-                  alt="Trello-logo"
-                  class="skill-icon"
-                />
-                <div class="skill-name">Trello</div>
-                <div class="skill-cat">Herramientas</div>
-              </div>
-
-              <div
-                class="skill-list"
-                data-cat="tools"
-                style="
-                  transition:
-                    opacity 0.3s,
-                    transform 0.3s;
-                  opacity: 1;
-                "
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/miro.svg"
-                  alt="Miro-logo"
-                  class="skill-icon"
-                  style="
-                    filter: invert(24%) sepia(14%) saturate(1450%)
-                      hue-rotate(341deg) brightness(91%) contrast(88%);
-                  "
-                />
-                <div class="skill-name">Miro</div>
-                <div class="skill-cat">Herramientas</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="portafolio" class="projects-section">
-      <div class="container">
-        <div class="section-title">
-          <small>PORTAFOLIO</small>
-
-          <h2>Proyectos destacados.</h2>
-        </div>
-
-        <div class="projects-grid">
-          <div class="project-card">
-            <img src="assets/TerraViva.png" alt="Terraviva" />
-
-            <div class="project-content">
-              <h3>Huellas de la Pola</h3>
-
-              <p>
-                Proyecto enfocado en estructura visual, experiencia responsive y
-                diseño moderno.
-              </p>
-
-              <a
-                href="https://handrymoran1.github.io/TerraViva/"
-                target="_blank"
-              >
-                Ver despliegue → |
-              </a>
-
-              <a
-                href="https://github.com/handrymoran1/TerraViva"
-                target="_blank"
-              >
-                Ver código →
-              </a>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <img src="assets/Burguer-Hub.png" alt="" />
-
-            <div class="project-content">
-              <h3>Burguer Hub</h3>
-
-              <p>
-                Página ecommerce venta de hamburguesas con persistencia en
-                localStorage (hackaton).
-              </p>
-
-              <a
-                href="https://fasalpa.github.io/Hackathon-1-Grupo-7"
-                target="_blank"
-              >
-                Ver despliegue → |
-              </a>
-              <a
-                href="https://github.com/Fasalpa/Hackathon-1-Grupo-7"
-                target="_blank"
-              >
-                Ver código →
-              </a>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <img src="assets/Todo-List.png" alt="ToDo List" />
-
-            <div class="project-content">
-              <h3>ToDo List</h3>
-
-              <p>
-                Aplicación responsive enfocada en interacción y experiencia de
-                usuario.
-              </p>
-
-              <a href="https://fasalpa.github.io/ToDo-List/" target="_blank">
-                Ver despliegue → |
-              </a>
-
-              <a href="https://github.com/Fasalpa/ToDo-List" target="_blank">
-                Ver código →
+              <a href="mailto:psfr97@gmail.com" class="btn-outline-custom">
+                Escríbeme
               </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="cv" class="education-section">
-      <div class="container">
-        <div class="section-title">
-          <small>FORMACIÓN</small>
-
-          <h2>Construyendo conocimiento <span>paso a paso.</span></h2>
-        </div>
-
-        <div class="education-timeline">
-          <div class="education-card">
-            <div class="education-year">SENA</div>
-            <div class="education-year">Terminado</div>
-
-            <h3>Técnico en Sistemas</h3>
+      <footer class="footer">
+        <div class="container footer-content">
+          <div class="footer-brand">
+            <h3>Fasalpa<span>.</span></h3>
 
             <p>
-              Primer acercamiento al mundo tecnológico, soporte y mantenimiento
-              de equipos y switch.
+              Desarrollo experiencias web donde el diseño y la funcionalidad
+              trabajan juntos.
             </p>
           </div>
 
-          <div class="education-card">
-            <div class="education-year">SENA</div>
-            <div class="education-year">Terminado</div>
-
-            <h3>Tecnólogo en Gestión de Redes</h3>
-
-            <p>Redes, infraestructura y resolución de problemas técnicos.</p>
+          <div class="footer-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
           </div>
 
-          <div class="education-card highlight">
-            <div class="education-year">Platzi</div>
-            <div class="education-year">Constante</div>
+          <div class="footer-social">
+            <a href="https://github.com/Fasalpa" target="_blank"> GitHub </a>
 
-            <h3>Desarrollador Full Stack</h3>
-
-            <p>
-              Formación continua en Platzi, enfocada en desarrollo Full Stack,
-              actualización tecnológica y el fortalecimiento constante de
-              habilidades prácticas.
-            </p>
-          </div>
-          <div class="education-card highlight">
-            <div class="education-year">UNAD</div>
-            <div class="education-year">Actualidad</div>
-
-            <h3>Ingeniería de Sistemas</h3>
-
-            <p>
-              Formación universitaria enfocada en desarrollo y pensamiento
-              lógico.
-            </p>
-          </div>
-
-          <div class="education-card highlight">
-            <div class="education-year">Generation Colombia</div>
-            <div class="education-year">Terminado</div>
-
-            <h3>Desarrollador Full Stack Java</h3>
-
-            <p>Formación intensiva en Java, Spring Boot y desarrollo web.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contacto" class="contact-section">
-      <div class="container">
-        <div class="contact-card">
-          <small>CONTACTO</small>
-
-          <h2>¿Construimos algo juntos?</h2>
-
-          <p>
-            Si tienes una idea, buscas colaboración o simplemente quieres
-            conversar sobre tecnología, estaré encantado de escucharte.
-          </p>
-
-          <div class="contact-links">
-            <a href="mailto:psfr97@gmail.com"> ✉️ psfr97@gmail.com </a>
-
-            <a href="https://linkedin.com/..." target="_blank"> 💼 LinkedIn </a>
-
-            <a href="https://github.com/Fasalpa" target="_blank"> 🐙 GitHub </a>
-          </div>
-
-          <div class="contact-buttons">
             <a
-              href="./docs/CV-Robinson-Fabian-Salamanca-Palacio.pdf"
-              class="btn-custom"
+              href="https://www.linkedin.com/in/robinson-fabian-salamanca-palacio-desarrollador-full-stack/"
+              target="_blank"
             >
-              Descargar cv
+              LinkedIn
             </a>
 
-            <a href="mailto:psfr97@gmail.com" class="btn-outline-custom">
-              Escríbeme
-            </a>
+            <a href="mailto:psfr97@gmail.com"> Email </a>
           </div>
         </div>
-      </div>
-    </section>
 
-    <footer class="footer">
-      <div class="footer-stats">
-        <div class="footer-stat">
-          <span>☕</span>
-          <strong>∞</strong>
-          <small>Café</small>
-        </div>
-
-        <div class="footer-stat">
-          <span>🌱</span>
-          <strong>Siempre</strong>
-          <small>Aprendiendo</small>
-        </div>
-
-        <div class="footer-stat">
-          <span>💻</span>
-          <strong>1+</strong>
-          <small>Años creando</small>
-        </div>
-      </div>
-      <div class="container footer-content">
-        <div class="footer-brand">
-          <h3>Fasalpa<span>.</span></h3>
-
+        <div class="footer-bottom">
           <p>
-            Desarrollo experiencias web donde el diseño y la funcionalidad
-            trabajan juntos.
+            © 2026 Fabián Salamanca · Diseñado y desarrollado con mucho café ☕
+            y curiosidad.
           </p>
         </div>
+      </footer>
 
-        <div class="footer-links">
-          <a href="#inicio">Inicio</a>
-          <a href="#sobre-mi">Sobre mí</a>
-          <a href="#portafolio">Portafolio</a>
-          <a href="#contacto">Contacto</a>
-        </div>
-
-        <div class="footer-social">
-          <a href="https://github.com/Fasalpa" target="_blank"> GitHub </a>
-
-          <a
-            href="https://www.linkedin.com/in/robinson-fabian-salamanca-palacio-desarrollador-full-stack/"
-            target="_blank"
-          >
-            LinkedIn
-          </a>
-
-          <a href="mailto:psfr97@gmail.com"> Email </a>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>
-          © 2026 Fabián Salamanca · Diseñado y desarrollado con mucho café ☕ y
-          curiosidad.
-        </p>
-      </div>
-    </footer>
-
-    <script src="app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+      <script src="app.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+  </main>
 </html>

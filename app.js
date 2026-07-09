@@ -24,7 +24,6 @@ cambiarModo.addEventListener("click", () => {
     document.documentElement.style.setProperty("--green-light", "#4f5a43");
     document.documentElement.style.setProperty("--accent", "#d68a57");
     document.documentElement.style.setProperty("--accent-dark", "#9e5c33");
-    document.documentElement.style.setProperty("--text", "#ffffff");
     document.documentElement.style.setProperty("--text-soft", "#c2b6a8");
     document.documentElement.style.setProperty("--white", "#362d28");
     document.documentElement.style.setProperty("--text", "#f4eee6");
@@ -47,10 +46,12 @@ cambiarModo.addEventListener("click", () => {
       "--nav-border",
       "rgba(0, 0, 0, 0.03)",
     );
-    document.documentElement.style.setProperty("--white", "#fffdf9");
     document.documentElement.style.setProperty("--text", "#3a2b22");
-    document.documentElement.style.setProperty("--text-soft", "#7b6a5d");
+    document.documentElement.style.setProperty("--text-soft", "#66564a");
     document.documentElement.style.setProperty("--white", "#fffdf9");
+    document.documentElement.style.setProperty("--green-light", "#d7dec8");
+    document.documentElement.style.setProperty("--accent-dark", "#5b3923");
+
     document.documentElement.style.setProperty("--toggle-bg", "transparent");
 
     document.documentElement.style.setProperty("--toggle-text", "#3a2b22");

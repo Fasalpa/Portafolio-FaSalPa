@@ -2,6 +2,22 @@ const cambiarModo = document.getElementById("cambiarModo");
 const logoLinkedin = document.getElementById("logoLinkedin");
 const logoGithub = document.getElementById("logoGithub");
 
+
+document.addEventListener("click", (e) => {
+  const menu = document.getElementById("navbarNav");
+  const boton = document.querySelector(".navbar-toggler");
+
+  // Si el menú está abierto y el clic fue fuera del menú y del botón
+  if (
+    menu.classList.contains("show") &&
+    !menu.contains(e.target) &&
+    !boton.contains(e.target)
+  ) {
+    const bsCollapse = bootstrap.Collapse.getInstance(menu);
+    bsCollapse.hide();
+  }
+});
+
 cambiarModo.addEventListener("click", () => {
   console.log("vamos bien");
 

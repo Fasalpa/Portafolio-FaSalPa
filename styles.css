@@ -109,6 +109,7 @@ section {
 .navbar-nav {
   align-items: center;
   gap: 15px;
+  width: 80%;
 }
 
 .nav-link {
@@ -120,8 +121,12 @@ section {
 .nav-link:hover {
   color: var(--accent) !important;
 }
-#btnIdioma{
-  border: none;
+#btnIdioma {
+  background-color: var(--nav-bg);
+  color: var(--text);
+  border-color: var(--accent);
+  border-radius: 180px;
+  width: 10% !important;
 }
 
 .btn-nav {
@@ -269,7 +274,8 @@ input:checked + label img.moon {
   font-weight: 800;
 }
 
-.hero-text h1 span {
+.hero-text h1 .resaltado,
+.puntos {
   color: var(--accent);
 }
 
@@ -410,6 +416,61 @@ input:checked + label img.moon {
   color: var(--accent);
 }
 
+
+
+/*PROJECTS*/
+
+.projects-section {
+  background: var(--bg-soft);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: var(--white);
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: 0.4s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 30px;
+}
+
+.project-content h3 {
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.project-content p {
+  margin-bottom: 25px;
+  color: var(--text-soft);
+  line-height: 1.8;
+  height: 100px;
+  overflow: auto; 
+}
+
+.project-content a {
+  color: var(--accent);
+  font-weight: 700;
+}
+
 /*ABOUT*/
 
 .about-section {
@@ -435,9 +496,6 @@ input:checked + label img.moon {
 
 #btnCv {
   display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 18px;
-  padding-inline: 18px;
 }
 
 /*STATS*/
@@ -486,7 +544,7 @@ input:checked + label img.moon {
   margin-bottom: 0;
 }
 
-/*SKILLS*/
+/*TECNOLOGÍAS*/
 
 #tecnologias {
   background-color: var(--bg-soft);
@@ -582,57 +640,7 @@ input:checked + label img.moon {
   flex-shrink: 0;
 }
 
-/*PROJECTS*/
-
-.projects-section {
-  background: var(--bg-soft);
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
-}
-
-.project-card {
-  background: var(--white);
-  border-radius: 32px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
-  transition: 0.4s;
-}
-
-.project-card:hover {
-  transform: translateY(-10px);
-}
-
-.project-card img {
-  width: 100%;
-  height: 230px;
-  object-fit: cover;
-}
-
-.project-content {
-  padding: 30px;
-}
-
-.project-content h3 {
-  margin-bottom: 15px;
-  font-size: 1.6rem;
-  font-weight: 700;
-}
-
-.project-content p {
-  margin-bottom: 25px;
-  color: var(--text-soft);
-  line-height: 1.8;
-}
-
-.project-content a {
-  color: var(--accent);
-  font-weight: 700;
-}
-
+/* EDUCACIÓN  */
 .education-section {
   background: var(--bg);
 }
@@ -696,6 +704,9 @@ input:checked + label img.moon {
 .education-card.highlight {
   border: 2px solid var(--accent);
 }
+
+
+/* CONTACTO */
 
 .contact-section {
   background-color: var(--bg-soft);
@@ -774,6 +785,9 @@ input:checked + label img.moon {
 
   gap: 20px;
 }
+
+
+/* FOOTER */
 
 .footer {
   background: var(--bg);
@@ -889,11 +903,26 @@ input:checked + label img.moon {
 
 @media (max-width: 1200px) {
   .navbar-nav {
+    display: flex;
+    align-items: center;
     gap: 6px;
+    width: 100%;
+  }
+    .nav-link {
+    width: 105px;
+    height: 40px;
+    text-align: center;
+    padding: -10;
   }
 }
 
 @media (max-width: 990px) {
+  .navbar-nav {
+    width: 100%;
+  }
+
+
+
   .section-title h2 {
     font-size: 2.4rem;
   }
@@ -907,6 +936,11 @@ input:checked + label img.moon {
 }
 
 @media (max-width: 576px) {
+   .btn-nav{
+display: flex;
+align-items: center;
+margin: 0;
+  }
   section {
     padding: 80px 0;
   }

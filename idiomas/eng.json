@@ -1,0 +1,17 @@
+{
+  "navInicio": "Home",
+  "navSobreMi": "About",
+  "navTecnologias": "Technologies",
+  "navProyectos": "Projects",
+  "navFormacion": "Education",
+  "btnCv": "Resume",
+  "btnContacto": "Let's to talk",
+  "heroSaludo": "Hi, I'm Fabián",
+  "heroTitulo": "I develop web experiences with a <span class=\"resaltado\">visual and functional focus</span><span class=\"puntos\">.</span>",
+  "heroDescripcion": "Frontend developer focused on clean design, usability, and attractive web interfaces<span class=\"puntos\">.</span>",
+  "heroProyectos": "View projects →",
+
+  "proyectosDescripcion": "WHAT I HAVE BUILT",
+  "proyectosH2": "Projects<span class=\"puntos\">.</span>",
+  "proyectosDescripcionHuellas": "Development of a web booking platform for rural accommodations, designed with a focus on usability, accessibility, and responsive design.<span class=\"puntos\">.</span>"
+}

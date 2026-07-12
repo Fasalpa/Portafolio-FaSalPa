@@ -22,7 +22,7 @@
   <main id="inicio">
     <body>
       <a class="skip-link" href="#inicio"> Saltar al contenido principal </a>
-      <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <nav class="navbar navbar-expand-xl fixed-top custom-navbar">
         <div class="container">
           <a class="navbar-brand logo" href="#"> Fasalpa<span>.</span> </a>
 
@@ -40,29 +40,31 @@
             <div class="navbar-nav ms-auto">
               <a class="nav-link" href="#inicio" id="navInicio">Inicio</a>
 
-              <a class="nav-link" href="#sobre-mi" id="navSobreMi"> Sobre mí </a>
+              <a class="nav-link" href="#proyectos" id="navProyectos">
+                Proyectos
+              </a>
+              <a class="nav-link" href="#sobre-mi" id="navSobreMi">
+                Sobre mí
+              </a>
 
-              <a class="nav-link" href="#tecnologias" id="navTecnologias"> Tecnologías </a>
-
-              <a class="nav-link" href="#proyectos" id="navProyectos"> Proyectos </a>
+              <a class="nav-link" href="#tecnologias" id="navTecnologias">
+                Tecnologías
+              </a>
 
               <a class="nav-link" href="#cv" id="navFormacion"> Formación </a>
+              <a class="nav-link" href="#contacto" id="btnContacto">
+                Contacto
+              </a>
 
-              <button id="btnIdioma">ES</button>
+              <button id="btnIdioma">ESP</button>
 
               <a
                 class="nav-link btn-nav"
                 href="./docs/CV-Robinson-Fabian-Salamanca-Palacio-ES.pdf"
-                target="_blank" id="btnCv"
+                target="_blank"
+                id="btnCv"
               >
                 CV
-              </a>
-              <a
-                class="nav-link btn-nav"
-                href="mailto:psfr97@gmail.com"
-                target="_blank" id="btnContacto"
-              >
-                Hablemos
               </a>
             </div>
             <input type="checkbox" id="cambiarModo" />
@@ -89,14 +91,15 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 hero-text">
-              <small> Hola, soy Fabián </small>
+              <small id="heroSaludo"> Hola, soy Fabián </small>
 
-              <h1>
+              <h1 id="heroTitulo">
                 Desarrollo experiencias web con enfoque
-                <span>visual y funcional<span class="puntos">.</span></span>
+                <span class="resaltado">visual y funcional</span
+                ><span class="puntos">.</span>
               </h1>
 
-              <p>
+              <p id="heroDescripcion">
                 Desarrollador Frontend enfocado en el diseño limpio, la
                 usabilidad y la creación de interfaces web atractivas<span
                   class="puntos"
@@ -105,7 +108,9 @@
               </p>
 
               <div class="hero-buttons">
-                <a href="#proyectos" class="btn-custom"> Ver proyectos → </a>
+                <a href="#proyectos" class="btn-custom" id="heroProyectos">
+                  Ver proyectos →
+                </a>
               </div>
 
               <div class="social-links">
@@ -148,8 +153,8 @@
       <section id="proyectos" class="projects-section">
         <div class="container">
           <div class="section-title">
-            <small>LO QUE HE CONSTRUIDO</small>
-            <h2>Proyectos<span>.</span></h2>
+            <small id="proyectosDescripcion">LO QUE HE CONSTRUIDO</small>
+            <h2 id="proyectosH2">Proyectos<span class="puntos">.</span></h2>
           </div>
 
           <div class="projects-grid">
@@ -159,12 +164,13 @@
                 alt="Imagen de proyecto Terraviva"
               />
 
-              <div class="project-content">
+              <div class="project-content" >
                 <h3>Huellas de la Pola</h3>
 
-                <p>
-                  Proyecto enfocado en estructura visual, experiencia responsive
-                  y diseño moderno<span class="puntos">.</span>
+                <p id="proyectosDescripcionHuellas">
+                  Desarrollo de una plataforma web de reservas para alojamientos
+                  rurales, diseñada con enfoque en usabilidad, accesibilidad y
+                  diseño responsive<span class="puntos">.</span>
                 </p>
 
                 <a
@@ -194,8 +200,8 @@
               <div class="project-content">
                 <h3>Burguer Hub</h3>
 
-                <p>
-                  Página ecommerce venta de hamburguesas con persistencia en
+                <p class="espacioDescripcion">
+                  Página ecommerce de venta de hamburguesas con persistencia en
                   localStorage (hackaton)<span class="puntos">.</span>
                 </p>
 
@@ -225,9 +231,10 @@
               <div class="project-content">
                 <h3>ToDo List</h3>
 
-                <p>
-                  Aplicación responsive enfocada en interacción y experiencia de
-                  usuario.
+                <p class="espacioDescripcion">
+                  Aplicación responsiva de gestión de tareas enfocada en diseño
+                  de interacción (IxD) y una experiencia de usuario (UX) fluida
+                  e intuitiva<span class="puntos">.</span>
                 </p>
 
                 <a

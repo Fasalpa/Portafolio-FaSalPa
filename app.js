@@ -3,12 +3,14 @@ const logoLinkedin = document.getElementById("logoLinkedin");
 const logoGithub = document.getElementById("logoGithub");
 const btnIdioma = document.getElementById("btnIdioma");
 
-let idiomaActual = "es";
+let idiomaActual = "esp";
 
 btnIdioma.addEventListener("click", () => {
-  idiomaActual = idiomaActual === "es" ? "en" : "es";
+  idiomaActual = idiomaActual === "esp" ? "eng" : "esp";
 
-  cambiarIdioma(idiomaActual);
+  cargarIdioma(idiomaActual);
+
+  btnIdioma.textContent = idiomaActual === "esp" ? "ENG" : "ESP";
 });
 
 const elementos = {
@@ -23,42 +25,42 @@ const elementos = {
   btnContacto: document.getElementById("btnContacto"),
 
   //hero
+  heroSaludo: document.getElementById("heroSaludo"),
+  heroTitulo: document.getElementById("heroTitulo"),
+  heroDescripcion: document.getElementById("heroDesscripcion"),
+  heroProyectos: document.getElementById("heroProyectos"),
+  heroDescripcion: document.getElementById("heroDescripcion"),
+  heroProyectos: document.getElementById("heroProyectos"),
+
+  //proyectos
+  proyectosDescripcion: document.getElementById("proyectosDescripcion"),
+  proyectosH2: document.getElementById("proyectosH2"),
+  proyectosDescripcionHuellas: document.getElementById("proyectosDescripcionHuellas"),
 };
 
-const idioma = {
-  es: {
-    inicio: "Inicio",
-    sobreMi: "Sobre mí",
-    tecnologias: "Tecnologías",
-    proyectos: "Proyectos",
-    formacion: "Formación",
-    cv: "CV",
-    contacto: "Hablemos",
-    cvArchivo: "./docs/CV-Robinson-Fabian-Salamanca-Palacio-ES.pdf",
-  },
-  en: {
-    inicio: "Home",
-    sobreMi: "About",
-    tecnologias: "Technologies",
-    proyectos: "Projects",
-    formacion: "Education",
-    cv: "Resume",
-    contacto: "Let's talk",
-    cvArchivo: "./docs/Cv-Robinson-Fabian-Salamanca-Palacio-EN.pdf",
-  },
-};
+async function cargarIdioma(lang) {
+  const respuesta = await fetch(`./idiomas/${lang}.json`);
+  const texto = await respuesta.json();
 
-function cambiarIdioma(lang) {
-  elementos.navInicio.textContent = idioma[lang].inicio;
-  elementos.navSobreMi.textContent = idioma[lang].sobreMi;
-  elementos.navTecnologias.textContent = idioma[lang].tecnologias;
-  elementos.navProyectos.textContent = idioma[lang].proyectos;
-  elementos.navFormacion.textContent = idioma[lang].formacion;
+  //navbar
+  elementos.navInicio.textContent = texto.navInicio;
+  elementos.navSobreMi.textContent = texto.navSobreMi;
+  elementos.navTecnologias.textContent = texto.navTecnologias;
+  elementos.navProyectos.textContent = texto.navProyectos;
+  elementos.navFormacion.textContent = texto.navFormacion;
+  elementos.btnCv.textContent = texto.btnCv;
+  elementos.btnContacto.textContent = texto.btnContacto;
 
-  btnIdioma.textContent = lang === "es" ? "EN" : "ES";
-  elementos.btnCv.textContent = idioma[lang].cv;
-  elementos.btnContacto.textContent = idioma[lang].contacto;
-  elementos.btnCv.href = idioma[lang].cvArchivo;
+  //hero
+  elementos.heroSaludo.textContent = texto.heroSaludo;
+  elementos.heroTitulo.innerHTML = texto.heroTitulo;
+  elementos.heroDescripcion.innerHTML = texto.heroDescripcion;
+  elementos.heroProyectos.textContent = texto.heroProyectos;
+
+  //proyectos
+  elementos.proyectosDescripcion.textContent = texto.proyectosDescripcion;
+  elementos.proyectosH2.innerHTML = texto.proyectosH2;
+  elementos.proyectosDescripcionHuellas.innerHTML = texto.proyectosDescripcionHuellas;
 }
 
 //cerrar el menú en cualquier parte.

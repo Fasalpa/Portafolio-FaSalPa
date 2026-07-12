@@ -1,13 +1,71 @@
 const cambiarModo = document.getElementById("cambiarModo");
 const logoLinkedin = document.getElementById("logoLinkedin");
 const logoGithub = document.getElementById("logoGithub");
+const btnIdioma = document.getElementById("btnIdioma");
 
+let idiomaActual = "es";
 
+btnIdioma.addEventListener("click", () => {
+  idiomaActual = idiomaActual === "es" ? "en" : "es";
+
+  cambiarIdioma(idiomaActual);
+});
+
+const elementos = {
+  //navbar
+
+  navInicio: document.getElementById("navInicio"),
+  navSobreMi: document.getElementById("navSobreMi"),
+  navTecnologias: document.getElementById("navTecnologias"),
+  navProyectos: document.getElementById("navProyectos"),
+  navFormacion: document.getElementById("navFormacion"),
+  btnCv: document.getElementById("btnCv"),
+  btnContacto: document.getElementById("btnContacto"),
+
+  //hero
+};
+
+const idioma = {
+  es: {
+    inicio: "Inicio",
+    sobreMi: "Sobre mí",
+    tecnologias: "Tecnologías",
+    proyectos: "Proyectos",
+    formacion: "Formación",
+    cv: "CV",
+    contacto: "Hablemos",
+    cvArchivo: "./docs/CV-Robinson-Fabian-Salamanca-Palacio-ES.pdf",
+  },
+  en: {
+    inicio: "Home",
+    sobreMi: "About",
+    tecnologias: "Technologies",
+    proyectos: "Projects",
+    formacion: "Education",
+    cv: "Resume",
+    contacto: "Let's talk",
+    cvArchivo: "./docs/Cv-Robinson-Fabian-Salamanca-Palacio-EN.pdf",
+  },
+};
+
+function cambiarIdioma(lang) {
+  elementos.navInicio.textContent = idioma[lang].inicio;
+  elementos.navSobreMi.textContent = idioma[lang].sobreMi;
+  elementos.navTecnologias.textContent = idioma[lang].tecnologias;
+  elementos.navProyectos.textContent = idioma[lang].proyectos;
+  elementos.navFormacion.textContent = idioma[lang].formacion;
+
+  btnIdioma.textContent = lang === "es" ? "EN" : "ES";
+  elementos.btnCv.textContent = idioma[lang].cv;
+  elementos.btnContacto.textContent = idioma[lang].contacto;
+  elementos.btnCv.href = idioma[lang].cvArchivo;
+}
+
+//cerrar el menú en cualquier parte.
 document.addEventListener("click", (e) => {
   const menu = document.getElementById("navbarNav");
   const boton = document.querySelector(".navbar-toggler");
 
-  // Si el menú está abierto y el clic fue fuera del menú y del botón
   if (
     menu.classList.contains("show") &&
     !menu.contains(e.target) &&
@@ -76,3 +134,5 @@ cambiarModo.addEventListener("click", () => {
     logoLinkedin.style.filter = "none";
   }
 });
+
+cambiarIdioma(idiomaActual);

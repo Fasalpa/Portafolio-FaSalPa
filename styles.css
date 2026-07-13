@@ -376,7 +376,6 @@ input:checked + label img.moon {
   padding-top: 14%;
 }
 
-
 .hero-image {
   position: relative;
   z-index: 2;
@@ -987,5 +986,9 @@ input:checked + label img.moon {
     font-size: 2.2rem;
     line-height: 1.15;
     letter-spacing: -1px;
+  }
+  .stat-card {
+    flex-direction: column;
+    justify-items: center;
   }
 }

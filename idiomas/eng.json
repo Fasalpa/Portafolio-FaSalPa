@@ -5,7 +5,9 @@
   "navProyectos": "Projects",
   "navFormacion": "Education",
   "btnCv": "Resume",
+  "cvUrl": "./docs/CV-Robinson-Fabian-Salamanca-Palacio-EN.pdf",
   "btnContacto": "Let's to talk",
+
   "heroSaludo": "Hi, I'm Fabián",
   "heroTitulo": "I develop web experiences with a <span class=\"resaltado\">visual and functional focus</span><span class=\"puntos\">.</span>",
   "heroDescripcion": "Frontend developer focused on clean design, usability, and attractive web interfaces<span class=\"puntos\">.</span>",

@@ -23,7 +23,7 @@ const elementos = {
   navFormacion: document.getElementById("navFormacion"),
   btnCv: document.getElementById("btnCv"),
   btnContacto: document.getElementById("btnContacto"),
-  
+
   //hero
   heroSaludo: document.getElementById("heroSaludo"),
   heroTitulo: document.getElementById("heroTitulo"),
@@ -31,7 +31,7 @@ const elementos = {
   heroProyectos: document.getElementById("heroProyectos"),
   heroDescripcion: document.getElementById("heroDescripcion"),
   heroProyectos: document.getElementById("heroProyectos"),
-  
+
   //proyectos
   proyectosDescripcion: document.getElementById("proyectosDescripcion"),
   proyectosH2: document.getElementById("proyectosH2"),
@@ -44,8 +44,7 @@ const elementos = {
   proyectosDescripcionToDoList: document.getElementById(
     "proyectosDescripcionToDoList",
   ),
-  
-  
+
   verDespliegue: document.querySelectorAll(".verDespliegue"),
   verCodigo: document.querySelectorAll(".verCodigo"),
   //sobre mi
@@ -59,14 +58,14 @@ const elementos = {
   sobreMiProyectos: document.getElementById("sobreMiProyectos"),
   sobreMiAprendiendo: document.getElementById("sobreMiAprendiendo"),
   sobreMiMotivacion: document.getElementById("sobreMiMotivacion"),
-  
+
   //habilidades
   tecnologiasDescripcion: document.getElementById("tecnologiasDescripcion"),
   tecnologiasTitulo: document.getElementById("tecnologiasTitulo"),
   tecnologiasHerramientas: document.getElementById("tecnologiasHerramientas"),
   tecnologiasBases: document.getElementById("tecnologiasBases"),
   tecnologiasProductividad: document.getElementById("tecnologiasProductividad"),
-  
+
   //formacion
   educacionDescripcion: document.getElementById("educacionDescripcion"),
   educacionTitulo: document.getElementById("educacionTitulo"),
@@ -90,14 +89,14 @@ const elementos = {
   educacionGenerationDescripcion: document.getElementById(
     "educacionGenerationDescripcion",
   ),
-  
+
   //contacto
   contactoDescripcion: document.getElementById("contactoDescripcion"),
   contactoTitulo: document.getElementById("contactoTitulo"),
   contactoDescripcionLarga: document.getElementById("contactoDescripcionLarga"),
   contactoCv: document.getElementById("contactoCv"),
   contactoMail: document.getElementById("contactoMail"),
-  
+
   //footer
   footerDescripcion: document.getElementById("footerDescripcion"),
   footerInicio: document.getElementById("footerInicio"),
@@ -110,7 +109,7 @@ const elementos = {
 async function cargarIdioma(lang) {
   const respuesta = await fetch(`./idiomas/${lang}.json`);
   const texto = await respuesta.json();
-  
+
   //navbar
   elementos.navInicio.textContent = texto.navInicio;
   elementos.navSobreMi.textContent = texto.navSobreMi;
@@ -119,32 +118,32 @@ async function cargarIdioma(lang) {
   elementos.navFormacion.textContent = texto.navFormacion;
   elementos.btnCv.textContent = texto.btnCv;
   elementos.btnContacto.textContent = texto.btnContacto;
-  
+
   //hero
   elementos.heroSaludo.textContent = texto.heroSaludo;
   elementos.heroTitulo.innerHTML = texto.heroTitulo;
   elementos.heroDescripcion.innerHTML = texto.heroDescripcion;
   elementos.heroProyectos.textContent = texto.heroProyectos;
-  
+
   //proyectos
   elementos.proyectosDescripcion.textContent = texto.proyectosDescripcion;
   elementos.proyectosH2.innerHTML = texto.proyectosH2;
   elementos.proyectosDescripcionTerraViva.innerHTML =
-  texto.proyectosDescripcionTerraViva;
+    texto.proyectosDescripcionTerraViva;
   elementos.proyectosDescripcionBurgueHub.innerHTML =
-  texto.proyectosDescripcionBurgueHub;
+    texto.proyectosDescripcionBurgueHub;
   elementos.proyectosDescripcionToDoList.innerHTML =
-  texto.proyectosDescripcionToDoList;
-  
+    texto.proyectosDescripcionToDoList;
+
   elementos.verDespliegue.forEach((elemento) => {
     elemento.textContent = texto.verDespliegue;
   });
   elementos.verCodigo.forEach((elemento) => {
     elemento.textContent = texto.verCodigo;
   });
-  
+
   // sobre mi
-  
+
   elementos.sobreMiDescripcion.textContent = texto.sobreMiDescripcion;
   elementos.sobreMiTitulo.innerHTML = texto.sobreMiTitulo;
   elementos.sobreMiPrimerTexto.innerHTML = texto.sobreMiPrimerTexto;
@@ -155,35 +154,35 @@ async function cargarIdioma(lang) {
   elementos.sobreMiProyectos.innerHTML = texto.sobreMiProyectos;
   elementos.sobreMiAprendiendo.innerHTML = texto.sobreMiAprendiendo;
   elementos.sobreMiMotivacion.innerHTML = texto.sobreMiMotivacion;
-  
+
   //habilidades
-  
+
   elementos.tecnologiasDescripcion.textContent = texto.tecnologiasDescripcion;
   elementos.tecnologiasTitulo.innerHTML = texto.tecnologiasTitulo;
   elementos.tecnologiasHerramientas.innerHTML = texto.tecnologiasHerramientas;
   elementos.tecnologiasBases.innerHTML = texto.tecnologiasBases;
   elementos.tecnologiasProductividad.innerHTML = texto.tecnologiasProductividad;
-  
+
   //formación
-  
+
   elementos.educacionDescripcion.textContent = texto.educacionDescripcion;
   elementos.educacionTitulo.innerHTML = texto.educacionTitulo;
   elementos.educacionTecnico.textContent = texto.educacionTecnico;
   elementos.educacionTecnicoDescripcion.innerHTML =
-  texto.educacionTecnicoDescripcion;
+    texto.educacionTecnicoDescripcion;
   elementos.educacionTecnico.textContent = texto.educacionTecnico;
   elementos.educacionTecnologo.textContent = texto.educacionTecnologo;
   elementos.educacionTecnologoDescripcion.innerHTML =
-  texto.educacionTecnologoDescripcion;
+    texto.educacionTecnologoDescripcion;
   elementos.educacionPlatzi.textContent = texto.educacionPlatzi;
   elementos.educacionPlatziDescripcion.innerHTML =
-  texto.educacionPlatziDescripcion;
+    texto.educacionPlatziDescripcion;
   elementos.educacionEstado.textContent = texto.educacionEstado;
   elementos.educacionUnad.textContent = texto.educacionUnad;
   elementos.educacionUnadDescripcion.innerHTML = texto.educacionUnadDescripcion;
   elementos.educacionGeneration.textContent = texto.educacionGeneration;
   elementos.educacionGenerationDescripcion.innerHTML =
-  texto.educacionGenerationDescripcion;
+    texto.educacionGenerationDescripcion;
   elementos.contactoDescripcion.textContent = texto.contactoDescripcion;
   elementos.contactoTitulo.textContent = texto.contactoTitulo;
   elementos.contactoDescripcionLarga.innerHTML = texto.contactoDescripcionLarga;
@@ -196,6 +195,9 @@ async function cargarIdioma(lang) {
   elementos.footerProyectos.textContent = texto.footerProyectos;
   elementos.footerFormacion.textContent = texto.footerFormacion;
   elementos.footerDescripcionFinal.innerHTML = texto.footerDescripcionFinal;
+
+  elementos.btnCv.textContent = texto.btnCv;
+  elementos.btnCv.href = texto.cvUrl;
 }
 
 //cerrar el menú en cualquier parte.

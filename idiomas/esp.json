@@ -5,6 +5,7 @@
   "navProyectos": "Proyectos",
   "navFormacion": "Formación",
   "btnCv": "CV",
+  "cvUrl": "./docs/CV-Robinson-Fabian-Salamanca-Palacio-ES.pdf",
   "btnContacto": "Hablemos",
   
   "heroSaludo": "Hola, soy Fabián",
@@ -61,4 +62,7 @@
   "footerProyectos": "Proyectos",
   "footerFormacion": "Formación",
   "footerDescripcionFinal": "© 2026 Fabián Salamanca · Diseñado y desarrollado con mucho café ☕ y curiosidad<span class=\"puntos\">.</span>"
+
+
+
 }

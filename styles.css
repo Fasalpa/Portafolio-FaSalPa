@@ -149,7 +149,6 @@ section {
   border-radius: 999px;
   padding: 10px 14px;
   margin-left: 15px;
-  transition: all 0.3s ease;
 }
 
 #cambiarModo:hover {
@@ -416,8 +415,6 @@ input:checked + label img.moon {
   color: var(--accent);
 }
 
-
-
 /*PROJECTS*/
 
 .projects-section {
@@ -463,7 +460,7 @@ input:checked + label img.moon {
   color: var(--text-soft);
   line-height: 1.8;
   height: 100px;
-  overflow: auto; 
+  overflow: auto;
 }
 
 .project-content a {
@@ -705,7 +702,6 @@ input:checked + label img.moon {
   border: 2px solid var(--accent);
 }
 
-
 /* CONTACTO */
 
 .contact-section {
@@ -785,7 +781,6 @@ input:checked + label img.moon {
 
   gap: 20px;
 }
-
 
 /* FOOTER */
 
@@ -908,7 +903,7 @@ input:checked + label img.moon {
     gap: 6px;
     width: 100%;
   }
-    .nav-link {
+  .nav-link {
     width: 105px;
     height: 40px;
     text-align: center;
@@ -921,16 +916,13 @@ input:checked + label img.moon {
     width: 100%;
   }
 
-      .hero-text h1{
+  .hero-text h1 {
+    font-size: 2.2rem;
 
-        font-size:2.2rem;
+    line-height: 1.15;
 
-        line-height:1.15;
-
-        letter-spacing:-1px;
-
-    }
-
+    letter-spacing: -1px;
+  }
 
   .section-title h2 {
     font-size: 2.4rem;
@@ -942,13 +934,14 @@ input:checked + label img.moon {
   .navbar-nav {
     gap: 6px;
   }
+
 }
 
 @media (max-width: 576px) {
-   .btn-nav{
-display: flex;
-align-items: center;
-margin: 0;
+  .btn-nav {
+    display: flex;
+    align-items: center;
+    margin: 0;
   }
 
   section {
@@ -987,18 +980,20 @@ margin: 0;
   .skill-cat {
     font-size: 0.75rem;
   }
+  .stats-grid {
+    grid-template-columns: none;
+  }
+  .education-timeline{
+    grid-template-columns:auto;
+  }
 }
 
-@media (max-width:480px){
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 2.2rem;
 
-    .hero-text h1{
+    line-height: 1.15;
 
-        font-size:2.2rem;
-
-        line-height:1.15;
-
-        letter-spacing:-1px;
-
-    }
-
+    letter-spacing: -1px;
+  }
 }

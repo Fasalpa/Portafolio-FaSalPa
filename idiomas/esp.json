@@ -6,21 +6,21 @@
   "navFormacion": "Formación",
   "btnCv": "CV",
   "btnContacto": "Hablemos",
-
+  
   "heroSaludo": "Hola, soy Fabián",
   "heroTitulo": "Desarrollo experiencias web con enfoque <span class=\"resaltado\">visual y funcional</span><span class=\"puntos\">.</span>",
   "heroDescripcion": "Desarrollador Frontend enfocado en el diseño limpio, la usabilidad y la creación de interfaces web atractivas<span class=\"puntos\">.</span>",
   "heroProyectos": "Ver proyectos →",
-
+  
   "proyectosDescripcion": "LO QUE HE CONSTRUIDO",
   "proyectosH2": "Proyectos<span class=\"puntos\">.</span>",
   "proyectosDescripcionTerraViva": "Aplicación responsiva de gestión de tareas enfocada en diseño de interacción (IxD) y una experiencia de usuario (UX) fluida e intuitiva<span class=\"puntos\">.</span>",
   "proyectosDescripcionBurgueHub": "Página ecommerce de venta de hamburguesas con persistencia en localStorage (hackaton)<span class=\"puntos\">.</span>",
   "proyectosDescripcionToDoList": "Aplicación responsiva de gestión de tareas enfocada en diseño de interacción (IxD) y una experiencia de usuario (UX) fluida e intuitiva<span class=\"puntos\">.</span>",
-
+  
   "verDespliegue": "Ver despliegue → |",
   "verCodigo": "Ver código →",
-
+  
   "sobreMiDescripcion": "SOBRE MÍ",
   "sobreMiTitulo": "Lo bello no es impresionar, <span class=\"puntos\">es comunicar.</span>",
   "sobreMiPrimerTexto": "Soy desarrollador Full Stack Java<span class=\"puntos\">.</span>",
@@ -30,5 +30,35 @@
   "btnDescargarCv": "Descargar cv",
   "sobreMiProyectos": "Proyectos",
   "sobreMiAprendiendo": "Años aprendiendo",
-  "sobreMiMotivacion": "Motivación"
+  "sobreMiMotivacion": "Motivación",
+  
+  "tecnologiasDescripcion": "HABILIDADES",
+  "tecnologiasTitulo": "Tecnologías y herramientas<span class=\"puntos\">.</span>",
+  "tecnologiasHerramientas": "Herramientas",
+  "tecnologiasBases": "Bases de datos",
+  "tecnologiasProductividad": "Productividad",
+  "educacionDescripcion": "Formación",
+  "educacionTitulo": "Construyendo conocimiento <span class=\"puntos\">paso a paso.</span>",
+  "educacionTecnico": "Técnico en Sistemas",
+  "educacionTecnicoDescripcion": "Primer acercamiento al mundo tecnológico, soporte y mantenimiento de equipos y switch."
+  ,"educacionTecnologo": "Tecnólogo en Gestión de Redes de Datos"
+  ,"educacionTecnologoDescripcion": "TRedes, servidores, infraestructura y resolución de problemas técnicos<span class=\"puntos\">.</span>"
+  ,"educacionPlatzi": "Desarrollador Full Stack"
+  ,"educacionPlatziDescripcion": "Formación continua en Platzi, enfocada en desarrollo Full Stack, actualización tecnológica y el fortalecimiento constante de habilidades prácticas<span class=\"puntos\">.</span>"
+  ,"educacionEstado": "En proceso"
+  ,"educacionUnad": "Ingeniería de Sistemas"
+  ,"educacionUnadDescripcion": "Formación universitaria enfocada en desarrollo y pensamiento lógico<span class=\"puntos\">.</span>"
+  ,"educacionGeneration": "Desarrollador Full Stack Java"
+  ,"educacionGenerationDescripcion": "Formación intensiva en Java, Spring Boot y desarrollo web<span class=\"puntos\">.</span>"
+  ,"contactoDescripcion": "CONTACTO"
+  ,"contactoTitulo": "¿Construimos algo juntos?"
+  ,"contactoDescripcionLarga": "Si tienes una idea, buscas colaboración o simplemente quieres conversar sobre tecnología, estaré encantado de escucharte<span class=\"puntos\">.</span>"
+  ,"contactoCv": "Descargar cv"
+  ,"contactoMail": "Escríbeme"
+  ,"footerDescripcion": "Desarrollo experiencias web donde el diseño y la funcionalidad trabajan juntos<span class=\"puntos\">.</span>"
+  ,"footerInicio": "Inicio",
+  "footerSobreMi": "Sobre mí",
+  "footerProyectos": "Proyectos",
+  "footerFormacion": "Formación",
+  "footerDescripcionFinal": "© 2026 Fabián Salamanca · Diseñado y desarrollado con mucho café ☕ y curiosidad<span class=\"puntos\">.</span>"
 }

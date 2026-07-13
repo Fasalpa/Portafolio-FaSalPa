@@ -5,7 +5,10 @@ const btnIdioma = document.getElementById("btnIdioma");
 
 let idiomaActual = "esp";
 
-btnIdioma.addEventListener("click", () => {
+
+
+btnIdioma.addEventListener("click", (e) => {
+  e.preventDefault();
   idiomaActual = idiomaActual === "esp" ? "eng" : "esp";
 
   cargarIdioma(idiomaActual);

@@ -126,7 +126,8 @@ section {
   color: var(--text);
   border-color: var(--accent);
   border-radius: 180px;
-  width: 10% !important;
+  min-width: 60px;
+  padding: 0.55rem 1rem;
 }
 
 .btn-nav {
@@ -180,7 +181,7 @@ label {
   background: var(--accent);
   border-radius: 180px;
   box-shadow:
-    inset 0px 2xp 5px rgba(0, 0, 0, 0.4),
+    inset 0px 2px 5px rgba(0, 0, 0, 0.4),
     inset 0px -2px 5px rgba(255, 255, 255, 0.4);
   cursor: pointer;
   transition: 0.3s;
@@ -334,7 +335,7 @@ input:checked + label img.moon {
 .social-links {
   display: flex;
   gap: 25px;
-  width: 40%;
+  width: fit-content;
   overflow: hidden;
   margin-left: 30px;
 }
@@ -375,12 +376,6 @@ input:checked + label img.moon {
   padding-top: 14%;
 }
 
-.blob {
-  position: absolute;
-  width: 480px;
-  height: 480px;
-  z-index: 1;
-}
 
 .hero-image {
   position: relative;
@@ -934,7 +929,6 @@ input:checked + label img.moon {
   .navbar-nav {
     gap: 6px;
   }
-
 }
 
 @media (max-width: 576px) {
@@ -983,17 +977,15 @@ input:checked + label img.moon {
   .stats-grid {
     grid-template-columns: none;
   }
-  .education-timeline{
-    grid-template-columns:auto;
+  .education-timeline {
+    grid-template-columns: auto;
   }
 }
 
 @media (max-width: 480px) {
   .hero-text h1 {
     font-size: 2.2rem;
-
     line-height: 1.15;
-
     letter-spacing: -1px;
   }
 }

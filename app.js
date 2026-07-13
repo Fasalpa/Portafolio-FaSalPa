@@ -35,7 +35,14 @@ const elementos = {
   //proyectos
   proyectosDescripcion: document.getElementById("proyectosDescripcion"),
   proyectosH2: document.getElementById("proyectosH2"),
-  proyectosDescripcionHuellas: document.getElementById("proyectosDescripcionHuellas"),
+  proyectosDescripcionTerraViva: document.getElementById("proyectosDescripcionTerraViva"),
+  proyectosDescripcionBurgueHub: document.getElementById("proyectosDescripcionBurgueHub"),
+  proyectosDescripcionToDoList: document.getElementById("proyectosDescripcionToDoList"),
+
+
+
+  verDespliegue: document.querySelectorAll(".verDespliegue"),
+  verCodigo: document.querySelectorAll(".verCodigo"),
 };
 
 async function cargarIdioma(lang) {
@@ -60,7 +67,16 @@ async function cargarIdioma(lang) {
   //proyectos
   elementos.proyectosDescripcion.textContent = texto.proyectosDescripcion;
   elementos.proyectosH2.innerHTML = texto.proyectosH2;
-  elementos.proyectosDescripcionHuellas.innerHTML = texto.proyectosDescripcionHuellas;
+  elementos.proyectosDescripcionTerraViva.innerHTML = texto.proyectosDescripcionTerraViva;
+  elementos.proyectosDescripcionBurgueHub.innerHTML = texto.proyectosDescripcionBurgueHub;
+  elementos.proyectosDescripcionToDoList.innerHTML = texto.proyectosDescripcionToDoList;
+
+  elementos.verDespliegue.forEach((elemento) => {
+    elemento.textContent = texto.verDespliegue;
+  });
+  elementos.verCodigo.forEach((elemento) => {
+    elemento.textContent = texto.verCodigo;
+  });
 }
 
 //cerrar el menú en cualquier parte.

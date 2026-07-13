@@ -13,5 +13,11 @@
 
   "proyectosDescripcion": "WHAT I HAVE BUILT",
   "proyectosH2": "Projects<span class=\"puntos\">.</span>",
-  "proyectosDescripcionHuellas": "Development of a web booking platform for rural accommodations, designed with a focus on usability, accessibility, and responsive design.<span class=\"puntos\">.</span>"
+  "proyectosDescripcionTerraViva": "Development of a web booking platform for rural accommodations, designed with a focus on usability, accessibility, and responsive design<span class=\"puntos\">.</span>",
+  "proyectosDescripcionBurgueHub": "E-commerce website for a burger shop with localStorage persistence (hackathon project)<span class=\"puntos\">.</span>",
+  "proyectosDescripcionToDoList": "Responsive task management app focused on interaction design (IxD) and a seamless, intuitive user experience (UX)<span class=\"puntos\">.</span>",
+
+
+    "verDespliegue": "View demo → | ",
+    "verCodigo": "View on GitHub → "
 }

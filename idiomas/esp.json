@@ -7,14 +7,20 @@
   "btnCv": "CV",
   "btnContacto": "Hablemos",
 
-  
   "heroSaludo": "Hola, soy Fabián",
   "heroTitulo": "Desarrollo experiencias web con enfoque <span class=\"resaltado\">visual y funcional</span><span class=\"puntos\">.</span>",
   "heroDescripcion": "Desarrollador Frontend enfocado en el diseño limpio, la usabilidad y la creación de interfaces web atractivas<span class=\"puntos\">.</span>",
   "heroProyectos": "Ver proyectos →",
 
+  "proyectosDescripcion": "LO QUE HE CONSTRUIDO",
+  "proyectosH2": "Proyectos<span class=\"puntos\">.</span>",
+  "proyectosDescripcionTerraViva": "Aplicación responsiva de gestión de tareas enfocada en diseño de interacción (IxD) y una experiencia de usuario (UX) fluida e intuitiva<span class=\"puntos\">.</span>",
+  "proyectosDescripcionBurgueHub": "Página ecommerce de venta de hamburguesas con persistencia en localStorage (hackaton)<span class=\"puntos\">.</span>",
+  "proyectosDescripcionToDoList": "Aplicación responsiva de gestión de tareas enfocada en diseño de interacción (IxD) y una experiencia de usuario (UX) fluida e intuitiva<span class=\"puntos\">.</span>",
 
-  "proyectosDescripcion":"LO QUE HE CONSTRUIDO",
-  "proyectosH2":"Proyectos<span class=\"puntos\">.</span>",
-  "proyectosDescripcionHuellas":"Aplicación responsiva de gestión de tareas enfocada en diseño de interacción (IxD) y una experiencia de usuario (UX) fluida e intuitiva<span class=\"puntos\">.</span>"
+
+
+
+  "verDespliegue": "Ver despliegue → |",
+  "verCodigo": "Ver código →"
 }

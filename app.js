@@ -35,14 +35,29 @@ const elementos = {
   //proyectos
   proyectosDescripcion: document.getElementById("proyectosDescripcion"),
   proyectosH2: document.getElementById("proyectosH2"),
-  proyectosDescripcionTerraViva: document.getElementById("proyectosDescripcionTerraViva"),
-  proyectosDescripcionBurgueHub: document.getElementById("proyectosDescripcionBurgueHub"),
-  proyectosDescripcionToDoList: document.getElementById("proyectosDescripcionToDoList"),
-
-
+  proyectosDescripcionTerraViva: document.getElementById(
+    "proyectosDescripcionTerraViva",
+  ),
+  proyectosDescripcionBurgueHub: document.getElementById(
+    "proyectosDescripcionBurgueHub",
+  ),
+  proyectosDescripcionToDoList: document.getElementById(
+    "proyectosDescripcionToDoList",
+  ),
 
   verDespliegue: document.querySelectorAll(".verDespliegue"),
   verCodigo: document.querySelectorAll(".verCodigo"),
+  //sobre mi
+  sobreMiDescripcion: document.getElementById("sobreMiDescripcion"),
+  sobreMiTitulo: document.getElementById("sobreMiTitulo"),
+  sobreMiPrimerTexto: document.getElementById("sobreMiPrimerTexto"),
+  sobreMiSegundoTexto: document.getElementById("sobreMiSegundoTexto"),
+  sobreMiTercerTexto: document.getElementById("sobreMiTercerTexto"),
+  sobreMiCuartoTexto: document.getElementById("sobreMiCuartoTexto"),
+  btnDescargarCv: document.getElementById("btnDescargarCv"),
+  sobreMiProyectos: document.getElementById("sobreMiProyectos"),
+  sobreMiAprendiendo: document.getElementById("sobreMiAprendiendo"),
+  sobreMiMotivacion: document.getElementById("sobreMiMotivacion"),
 };
 
 async function cargarIdioma(lang) {
@@ -67,9 +82,12 @@ async function cargarIdioma(lang) {
   //proyectos
   elementos.proyectosDescripcion.textContent = texto.proyectosDescripcion;
   elementos.proyectosH2.innerHTML = texto.proyectosH2;
-  elementos.proyectosDescripcionTerraViva.innerHTML = texto.proyectosDescripcionTerraViva;
-  elementos.proyectosDescripcionBurgueHub.innerHTML = texto.proyectosDescripcionBurgueHub;
-  elementos.proyectosDescripcionToDoList.innerHTML = texto.proyectosDescripcionToDoList;
+  elementos.proyectosDescripcionTerraViva.innerHTML =
+    texto.proyectosDescripcionTerraViva;
+  elementos.proyectosDescripcionBurgueHub.innerHTML =
+    texto.proyectosDescripcionBurgueHub;
+  elementos.proyectosDescripcionToDoList.innerHTML =
+    texto.proyectosDescripcionToDoList;
 
   elementos.verDespliegue.forEach((elemento) => {
     elemento.textContent = texto.verDespliegue;
@@ -77,6 +95,19 @@ async function cargarIdioma(lang) {
   elementos.verCodigo.forEach((elemento) => {
     elemento.textContent = texto.verCodigo;
   });
+
+  // sobre mi
+
+  elementos.sobreMiDescripcion.textContent = texto.sobreMiDescripcion;
+  elementos.sobreMiTitulo.innerHTML = texto.sobreMiTitulo;
+  elementos.sobreMiPrimerTexto.innerHTML = texto.sobreMiPrimerTexto;
+  elementos.sobreMiSegundoTexto.innerHTML = texto.sobreMiSegundoTexto;
+  elementos.sobreMiTercerTexto.innerHTML = texto.sobreMiTercerTexto;
+  elementos.sobreMiCuartoTexto.innerHTML = texto.sobreMiCuartoTexto;
+  elementos.btnDescargarCv.innerHTML = texto.btnDescargarCv;
+  elementos.sobreMiProyectos.innerHTML = texto.sobreMiProyectos;
+  elementos.sobreMiAprendiendo.innerHTML = texto.sobreMiAprendiendo;
+  elementos.sobreMiMotivacion.innerHTML = texto.sobreMiMotivacion;
 }
 
 //cerrar el menú en cualquier parte.

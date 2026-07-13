@@ -18,9 +18,17 @@
   "proyectosDescripcionBurgueHub": "Página ecommerce de venta de hamburguesas con persistencia en localStorage (hackaton)<span class=\"puntos\">.</span>",
   "proyectosDescripcionToDoList": "Aplicación responsiva de gestión de tareas enfocada en diseño de interacción (IxD) y una experiencia de usuario (UX) fluida e intuitiva<span class=\"puntos\">.</span>",
 
-
-
-
   "verDespliegue": "Ver despliegue → |",
-  "verCodigo": "Ver código →"
+  "verCodigo": "Ver código →",
+
+  "sobreMiDescripcion": "SOBRE MÍ",
+  "sobreMiTitulo": "Lo bello no es impresionar, <span class=\"puntos\">es comunicar.</span>",
+  "sobreMiPrimerTexto": "Soy desarrollador Full Stack Java<span class=\"puntos\">.</span>",
+  "sobreMiSegundoTexto": "Tengo experiencia en soporte, redes de datos y enseñanza, lo que me permitió desarrollar habilidades técnicas, comunicación efectiva y resolución de problemas<span class=\"puntos\">.</span>",
+  "sobreMiTercerTexto": "Me interesa crear interfaces que puedan ser utilizadas por la mayor cantidad de personas posible. Por eso este portafolio incorpora buenas prácticas de accesibilidad como navegación por teclado, etiquetas semánticas, contraste adecuado y una paleta amigable para personas con daltonismo<span class=\"puntos\">.</span>",
+  "sobreMiCuartoTexto": "Actualmente sigo aprendiendo y mejorando mis habilidades en desarrollo web, backend con Java y Spring Boot<span class=\"puntos\">.</span>",
+  "btnDescargarCv": "Descargar cv",
+  "sobreMiProyectos": "Proyectos",
+  "sobreMiAprendiendo": "Años aprendiendo",
+  "sobreMiMotivacion": "Motivación"
 }

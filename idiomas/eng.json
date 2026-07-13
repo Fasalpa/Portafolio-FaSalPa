@@ -17,7 +17,17 @@
   "proyectosDescripcionBurgueHub": "E-commerce website for a burger shop with localStorage persistence (hackathon project)<span class=\"puntos\">.</span>",
   "proyectosDescripcionToDoList": "Responsive task management app focused on interaction design (IxD) and a seamless, intuitive user experience (UX)<span class=\"puntos\">.</span>",
 
+  "verDespliegue": "View demo → | ",
+  "verCodigo": "View on GitHub → ",
 
-    "verDespliegue": "View demo → | ",
-    "verCodigo": "View on GitHub → "
+  "sobreMiDescripcion": "ABOUT ME",
+  "sobreMiTitulo": "It's not about impressing; <span class=\"puntos\">it's about communicating.</span>",
+  "sobreMiPrimerTexto": "I am a Full Stack Java Developer<span class=\"puntos\">.</span>",
+  "sobreMiSegundoTexto": "I have experience in technical support, data networking, and teaching, which has allowed me to develop strong technical skills, effective communication, and problem-solving abilities<span class=\"puntos\">.</span>",
+  "sobreMiTercerTexto": "I am interested in creating interfaces that can be used by as many people as possible. That is why this portfolio incorporates web accessibility best practices, such as keyboard navigation, semantic tags, proper contrast, and a colorblind-friendly palette<span class=\"puntos\">.</span>",
+  "sobreMiCuartoTexto": "I am currently continuously learning and improving my skills in web development, as well as backend development with Java and Spring Boot<span class=\"puntos\">.</span>",
+  "btnDescargarCv": "Download cv",
+  "sobreMiProyectos": "Projects",
+  "sobreMiAprendiendo": "Years of learning",
+  "sobreMiMotivacion": "Motivation"
 }

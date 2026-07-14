@@ -1,11 +1,10 @@
 const cambiarModo = document.getElementById("cambiarModo");
 const logoLinkedin = document.getElementById("logoLinkedin");
 const logoGithub = document.getElementById("logoGithub");
+const LogoGitHub2 = document.getElementById("LogoGitHub2");
 const btnIdioma = document.getElementById("btnIdioma");
 
 let idiomaActual = "esp";
-
-
 
 btnIdioma.addEventListener("click", (e) => {
   e.preventDefault();
@@ -119,7 +118,6 @@ async function cargarIdioma(lang) {
   elementos.navTecnologias.textContent = texto.navTecnologias;
   elementos.navProyectos.textContent = texto.navProyectos;
   elementos.navFormacion.textContent = texto.navFormacion;
-  elementos.btnCv.textContent = texto.btnCv;
   elementos.btnContacto.textContent = texto.btnContacto;
 
   //hero
@@ -153,7 +151,6 @@ async function cargarIdioma(lang) {
   elementos.sobreMiSegundoTexto.innerHTML = texto.sobreMiSegundoTexto;
   elementos.sobreMiTercerTexto.innerHTML = texto.sobreMiTercerTexto;
   elementos.sobreMiCuartoTexto.innerHTML = texto.sobreMiCuartoTexto;
-  elementos.btnDescargarCv.innerHTML = texto.btnDescargarCv;
   elementos.sobreMiProyectos.innerHTML = texto.sobreMiProyectos;
   elementos.sobreMiAprendiendo.innerHTML = texto.sobreMiAprendiendo;
   elementos.sobreMiMotivacion.innerHTML = texto.sobreMiMotivacion;
@@ -189,7 +186,6 @@ async function cargarIdioma(lang) {
   elementos.contactoDescripcion.textContent = texto.contactoDescripcion;
   elementos.contactoTitulo.textContent = texto.contactoTitulo;
   elementos.contactoDescripcionLarga.innerHTML = texto.contactoDescripcionLarga;
-  elementos.contactoCv.innerHTML = texto.contactoCv;
   elementos.contactoMail.innerHTML = texto.contactoMail;
   //footer
   elementos.footerDescripcion.innerHTML = texto.footerDescripcion;
@@ -201,6 +197,10 @@ async function cargarIdioma(lang) {
 
   elementos.btnCv.textContent = texto.btnCv;
   elementos.btnCv.href = texto.cvUrl;
+  elementos.btnDescargarCv.textContent = texto.btnCv;
+  elementos.btnDescargarCv.href = texto.cvUrl;
+  elementos.contactoCv.textContent = texto.contactoCv;
+  elementos.contactoCv.href = texto.cvUrl;
 }
 
 //cerrar el menú en cualquier parte.
@@ -273,6 +273,7 @@ cambiarModo.addEventListener("click", () => {
     document.documentElement.style.setProperty("--toggle-text", "#3a2b22");
 
     logoGithub.style.filter = "none";
+    LogoGitHub2.style.filter = "none";
     logoLinkedin.style.filter = "none";
   }
 });

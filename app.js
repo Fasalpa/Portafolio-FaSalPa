@@ -3,6 +3,9 @@ const logoLinkedin = document.getElementById("logoLinkedin");
 const logoGithub = document.getElementById("logoGithub");
 const LogoGitHub2 = document.getElementById("LogoGitHub2");
 const btnIdioma = document.getElementById("btnIdioma");
+const githubLogo = document.getElementById("githubLogo");
+const linkedinLogo = document.getElementById("linkedinLogo");
+const mailLogo = document.getElementById("mailLogo");
 
 let idiomaActual = "esp";
 
@@ -219,8 +222,6 @@ document.addEventListener("click", (e) => {
 });
 
 cambiarModo.addEventListener("click", () => {
-  console.log("vamos bien");
-
   const fondoActual = getComputedStyle(document.documentElement)
     .getPropertyValue("--bg")
     .trim();
@@ -251,6 +252,10 @@ cambiarModo.addEventListener("click", () => {
 
     logoGithub.style.filter = "brightness(0) invert(1)";
     logoLinkedin.style.filter = "brightness(0) invert(1)";
+
+    githubLogo.style.filter = "brightness(0) invert(1)";
+    linkedinLogo.style.filter = "brightness(0) invert(1)";
+    mailLogo.style.filter = "brightness(0) invert(1)";
   } else {
     document.documentElement.style.setProperty("--bg", "#f5efe7");
     document.documentElement.style.setProperty("--bg-soft", "#e9e2d8");
@@ -275,6 +280,9 @@ cambiarModo.addEventListener("click", () => {
     logoGithub.style.filter = "none";
     LogoGitHub2.style.filter = "none";
     logoLinkedin.style.filter = "none";
+    githubLogo.style.filter = "none";
+    linkedinLogo.style.filter = "none";
+    mailLogo.style.filter = "none";
   }
 });
 

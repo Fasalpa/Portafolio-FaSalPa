@@ -63,13 +63,6 @@
                 Contacto
               </a>
 
-              <button type="button"
-                id="btnIdioma"
-                aria-label="Cambiar idioma del sitio actual: Español"
-              >
-                ENG
-              </button>
-
               <a
                 class="nav-link btn-nav"
                 href="./docs/CV-Robinson-Fabian-Salamanca-Palacio-ES.pdf"
@@ -79,6 +72,13 @@
               >
                 CV
               </a>
+              <button
+                type="button"
+                id="btnIdioma"
+                aria-label="Cambiar idioma del sitio actual: Español"
+              >
+                ENG
+              </button>
             </div>
             <input type="checkbox" id="cambiarModo" />
             <label
@@ -401,7 +401,7 @@
         </div>
       </section>
 
-      <section id="tecnologias" aria-labelledby="tecnologiasTitulo" >
+      <section id="tecnologias" aria-labelledby="tecnologiasTitulo">
         <div class="container col-6">
           <div class="section-title">
             <small id="tecnologiasDescripcion">HABILIDADES</small>
@@ -616,7 +616,8 @@
                   "
                   aria-label="Git, nivel de dominio o confianza setenta y cinco por ciento"
                 >
-                  <img id="LogoGitHub2" 
+                  <img
+                    id="LogoGitHub2"
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
                     alt="Logo de Git"
                     class="skill-icon git-icon"
@@ -948,9 +949,13 @@
       <footer class="footer" style="height: 30vh" aria-label="Pie de página">
         <div class="container footer-content">
           <div class="footer-brand">
-                      <a class="logo" href="#" aria-label="Fasalpa Logo que devuelve al Inicio">
-            Fasalpa<span class="puntos">.</span>
-          </a>
+            <a
+              class="logo"
+              href="#"
+              aria-label="Fasalpa Logo que devuelve al Inicio"
+            >
+              Fasalpa<span class="puntos">.</span>
+            </a>
 
             <p id="footerDescripcion">
               Desarrollo experiencias web donde el diseño y la funcionalidad
@@ -975,25 +980,39 @@
             <a
               href="https://github.com/Fasalpa"
               target="_blank"
-              aria-label="Visitar mi GitHub (se abre en una nueva pestaña)"
+              aria-label="Visitar mi perfil de código en GitHub (se abre en una nueva pestaña)"
             >
-              GitHub
+              <img
+                id="githubLogo"
+                class="footerLogos"
+                src="./assets/github-logo.png"
+                alt="Logo de GitHub"
+              />
             </a>
 
             <a
               href="https://www.linkedin.com/in/robinson-fabian-salamanca-palacio-desarrollador-full-stack/"
               target="_blank"
-              aria-label="Visitar mi LinkedIn (se abre en una nueva pestaña)"
+              aria-label="Visitar mi perfil profesional en LinkedIn (se abre en una nueva pestaña)"
             >
-              LinkedIn
+              <img
+                id="linkedinLogo"
+                class="footerLogos"
+                src="./assets/linkedin-logo.png"
+                alt="Logo de LinkedIn"
+              />
             </a>
-
             <a
               href="mailto:psfr97@gmail.com"
               target="_blank"
               aria-label="Enviar correo electrónico"
             >
-              Email
+              <img
+                class="footerLogos"
+                id="mailLogo"
+                src="./assets/mail-logo.png"
+                alt="Logo de LinkedIn"
+              />
             </a>
           </div>
         </div>

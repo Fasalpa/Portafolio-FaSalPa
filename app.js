@@ -208,6 +208,7 @@ async function cargarIdioma(lang) {
 
 //cerrar el menú en cualquier parte.
 document.addEventListener("click", (e) => {
+  
   const menu = document.getElementById("navbarNav");
   const boton = document.querySelector(".navbar-toggler");
 
@@ -220,6 +221,7 @@ document.addEventListener("click", (e) => {
     bsCollapse.hide();
   }
 });
+
 
 cambiarModo.addEventListener("click", () => {
   const fondoActual = getComputedStyle(document.documentElement)

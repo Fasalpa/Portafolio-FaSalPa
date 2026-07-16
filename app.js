@@ -288,4 +288,4 @@ cambiarModo.addEventListener("click", () => {
   }
 });
 
-cambiarIdioma(idiomaActual);
+cargarIdioma(idiomaActual);

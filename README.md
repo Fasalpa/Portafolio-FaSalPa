@@ -31,10 +31,6 @@ Fue diseñado y desarrollado desde cero con un enfoque en la experiencia de usua
 - JavaScript (ES6+)
 - Bootstrap 5
 
-## Backend
-
-- Node.js
-
 ## Herramientas
 
 - Git

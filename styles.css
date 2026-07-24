@@ -905,10 +905,6 @@ input:checked + label img.moon {
   opacity: 0.6;
   width: 32px;
 }
-#footerDescripcionFinal {
-  color: var(--accent);
-  padding: 0 8%;
-}
 
 /*RESPONSIVE DESIGN*/
 

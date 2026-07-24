@@ -2,6 +2,8 @@ const cambiarModo = document.getElementById("cambiarModo");
 const logoLinkedin = document.getElementById("logoLinkedin");
 const logoGithub = document.getElementById("logoGithub");
 const LogoGitHub2 = document.getElementById("LogoGitHub2");
+const gitHubSkills = document.getElementById("gitHubSkills");
+const miroSkills = document.getElementById("miroSkills");
 const btnIdioma = document.getElementById("btnIdioma");
 const githubLogo = document.getElementById("githubLogo");
 const linkedinLogo = document.getElementById("linkedinLogo");
@@ -254,6 +256,8 @@ cambiarModo.addEventListener("click", () => {
 
     logoGithub.style.filter = "brightness(0) invert(1)";
     logoLinkedin.style.filter = "brightness(0) invert(1)";
+    gitHubSkills.style.filter = "brightness(0) invert(1)";
+    miroSkills.style.filter = "brightness(0) invert(1)";
 
     githubLogo.style.filter = "brightness(0) invert(1)";
     linkedinLogo.style.filter = "brightness(0) invert(1)";
@@ -281,6 +285,8 @@ cambiarModo.addEventListener("click", () => {
 
     logoGithub.style.filter = "none";
     LogoGitHub2.style.filter = "none";
+    gitHubSkills.style.filter = "none";
+    miroSkills.style.filter = "";
     logoLinkedin.style.filter = "none";
     githubLogo.style.filter = "none";
     linkedinLogo.style.filter = "none";

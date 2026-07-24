@@ -295,3 +295,5 @@ cambiarModo.addEventListener("click", () => {
 });
 
 cargarIdioma(idiomaActual);
+
+

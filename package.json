@@ -1,0 +1,29 @@
+{
+  "name": "portafolio-fasalpa",
+  "version": "1.0.0",
+  "description": "Bienvenido a mi portafolio personal. Este proyecto fue diseñado y desarrollado para reunir mi experiencia, proyectos y proceso de aprendizaje como desarrollador Full Stack Junior.",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fasalpa/Portafolio-FaSalPa.git"
+  },
+  "keywords": [],
+  "author": "Fasalpa",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Fasalpa/Portafolio-FaSalPa/issues"
+  },
+  "homepage": "https://github.com/Fasalpa/Portafolio-FaSalPa#readme",
+  "devDependencies": {
+    "eslint": "^10.7.0",
+    "prettier": "^3.9.6"
+  }
+}

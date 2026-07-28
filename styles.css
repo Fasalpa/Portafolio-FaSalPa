@@ -674,7 +674,7 @@ input:checked + label img.moon {
   transform: translateY(-8px);
 }
 
-.education-year {
+.where-study {
   display: inline-block;
 
   margin-bottom: 20px;

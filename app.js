@@ -8,6 +8,9 @@ const btnIdioma = document.getElementById("btnIdioma");
 const githubLogo = document.getElementById("githubLogo");
 const linkedinLogo = document.getElementById("linkedinLogo");
 const mailLogo = document.getElementById("mailLogo");
+const barra = document.querySelector(".progress-bar");
+
+let ticking = false;
 
 let idiomaActual = "esp";
 
@@ -210,7 +213,6 @@ async function cargarIdioma(lang) {
 
 //cerrar el menú en cualquier parte.
 document.addEventListener("click", (e) => {
-  
   const menu = document.getElementById("navbarNav");
   const boton = document.querySelector(".navbar-toggler");
 
@@ -223,7 +225,6 @@ document.addEventListener("click", (e) => {
     bsCollapse.hide();
   }
 });
-
 
 cambiarModo.addEventListener("click", () => {
   const fondoActual = getComputedStyle(document.documentElement)
@@ -294,6 +295,19 @@ cambiarModo.addEventListener("click", () => {
   }
 });
 
+function actualizarBarra() {
+  const alturaTotal =
+    document.documentElement.scrollHeight - window.innerHeight;
+  const progreso = window.scrollY / alturaTotal;
+  barra.style.transform = `scaleX(${progreso})`;
+  ticking = false;
+}
+
+window.addEventListener("scroll", () => {
+  if(!ticking){
+    requestAnimationFrame(actualizarBarra);
+    ticking = true;
+  }
+});
+
 cargarIdioma(idiomaActual);
-
-

@@ -50,13 +50,25 @@ body {
 .progress-bar{
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   width: 100%;
-  height: 16px;
-  background: crimson;
+  height: 5px;
+  background: var(--accent);
   transform-origin: left;
   transform: scaleX(0);
+  z-index: 1;
+
+  animation-name: adelante;
+  animation-timeline: scroll(root);
+  animation-fill-mode: both;
 }
+
+@keyframes adelante{
+  to {
+    transform: scaleX(1);
+  }
+}
+
 
 .skip-link {
   position: absolute;

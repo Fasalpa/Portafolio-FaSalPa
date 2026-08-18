@@ -970,6 +970,9 @@ input:checked + label img.moon {
   .col-6 {
     width: 100%;
   }
+  .footer p{
+    margin: 0 5% ;
+  }
 }
 
 @media (max-width: 576px) {

@@ -9,6 +9,8 @@ const githubLogo = document.getElementById("githubLogo");
 const linkedinLogo = document.getElementById("linkedinLogo");
 const mailLogo = document.getElementById("mailLogo");
 const barra = document.querySelector(".progress-bar");
+const copiar = document.getElementById("correo-copiar");
+const btnCopiar = document.getElementById("btn-copiar");
 
 let ticking = false;
 
@@ -304,10 +306,21 @@ function actualizarBarra() {
 }
 
 window.addEventListener("scroll", () => {
-  if(!ticking){
+  if (!ticking) {
     requestAnimationFrame(actualizarBarra);
     ticking = true;
   }
+});
+
+btnCopiar.addEventListener("click", async () => {
+  await navigator.clipboard.writeText(copiar.textContent);
+  const textoOriginal = btnCopiar.textContent;
+
+  btnCopiar.textContent = "¡Copiado!";
+
+  setTimeout(() => {
+    btnCopiar.textContent = textoOriginal;
+  }, 2000);
 });
 
 cargarIdioma(idiomaActual);

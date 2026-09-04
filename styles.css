@@ -774,6 +774,27 @@ input:checked + label img.moon {
   line-height: 1.9;
 }
 
+.container-correo {
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+  height: 40px;
+  gap: 4%;
+}
+#correo-copiar {
+  color: var(--accent);
+  margin: 0;
+}
+#btn-copiar {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--accent);
+  padding: 0 3%;
+  border-radius: 24px;
+  height: 30px;
+  color: var(--accent-dark);
+}
+
 .contact-links {
   display: flex;
   justify-content: center;
@@ -970,8 +991,8 @@ input:checked + label img.moon {
   .col-6 {
     width: 100%;
   }
-  .footer p{
-    margin: 0 5% ;
+  .footer p {
+    margin: 0 5%;
   }
 }
 

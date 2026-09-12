@@ -53,8 +53,8 @@ const elementos = {
   proyectosDescripcionBurgueHub: document.getElementById(
     "proyectosDescripcionBurgueHub",
   ),
-  proyectosDescripcionToDoList: document.getElementById(
-    "proyectosDescripcionToDoList",
+  proyectosDescripcionNotasRapidas: document.getElementById(
+    "proyectosDescripcionNotasRapidas",
   ),
 
   verDespliegue: document.querySelectorAll(".verDespliegue"),
@@ -143,8 +143,8 @@ async function cargarIdioma(lang) {
     texto.proyectosDescripcionTerraViva;
   elementos.proyectosDescripcionBurgueHub.innerHTML =
     texto.proyectosDescripcionBurgueHub;
-  elementos.proyectosDescripcionToDoList.innerHTML =
-    texto.proyectosDescripcionToDoList;
+  elementos.proyectosDescripcionNotasRapidas.innerHTML =
+    texto.proyectosDescripcionNotasRapidas;
 
   elementos.verDespliegue.forEach((elemento) => {
     elemento.textContent = texto.verDespliegue;

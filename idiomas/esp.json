@@ -16,8 +16,8 @@
   "proyectosDescripcion": "LO QUE HE CONSTRUIDO",
   "proyectosH2": "Proyectos<span class=\"puntos\">.</span>",
   "proyectosDescripcionTerraViva": "Desarrollo de una plataforma web de reservas para alojamientos rurales, diseñada con un enfoque en usabilidad, accesibilidad y diseño responsivo<span class=\"puntos\">.</span>",
-  "proyectosDescripcionBurgueHub": "Página ecommerce de venta de hamburguesas con persistencia en localStorage (hackaton)<span class=\"puntos\">.</span>",
-  "proyectosDescripcionNotasRapidas": "Aplicación web interactiva desarrollada con Java, Spring Boot, JavaScript Vanilla y CSS modular<span class=\"puntos\">.</span> Incluye operaciones CRUD completas,personalización de temas, seguimiento del estado de ánimo, ylógica temporal avanzada (cápsulas bloqueadas y autodestrucción en tiempo real con persistencia en Render)<span class=\"puntos\">.</span>",
+  "proyectosDescripcionNotasRapidas": "Aplicación web interactiva desarrollada con Java, Spring Boot, JavaScript Vanilla y CSS modular<span class=\"puntos\">.</span> Incluye operaciones CRUD completas,personalización de temas, seguimiento del estado de ánimo, ylógica temporal avanzada (<em>cápsulas bloqueadas y autodestrucción en tiempo real con persistencia en Render</em>)<span class=\"puntos\">.</span>",
+  "proyectosDescripcionBurgueHub": "Página ecommerce de venta de hamburguesas con persistencia en localStorage (<em>hackaton</em>)<span class=\"puntos\">.</span>",
 
   "verDespliegue": "Ver despliegue → |",
   "verCodigo": "Ver código →",

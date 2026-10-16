@@ -16,8 +16,8 @@
   "proyectosDescripcion": "WHAT I HAVE BUILT",
   "proyectosH2": "Projects<span class=\"puntos\">.</span>",
   "proyectosDescripcionTerraViva": "Development of a web booking platform for rural accommodations, designed with a focus on usability, accessibility, and responsive design<span class=\"puntos\">.</span>",
-  "proyectosDescripcionBurgueHub": "E-commerce website for a burger shop with localStorage persistence (hackathon project)<span class=\"puntos\">.</span>",
-  "proyectosDescripcionNotasRapidas": "Interactive web application developed with Java, Spring Boot, Vanilla JavaScript and modular CSS<span class=\"puntos\">.</span> Includes full CRUD operations, theme customization, mood tracking, and advanced time logic (locked capsules and real-time self-destruction with persistence to Render)<span class=\"puntos\">.</span>",
+  "proyectosDescripcionNotasRapidas": "Interactive web application developed with Java, Spring Boot, Vanilla JavaScript and modular CSS<span class=\"puntos\">.</span> Includes full CRUD operations, theme customization, mood tracking, and advanced time logic (<em>locked capsules and real-time self-destruction with persistence to Render</em>)<span class=\"puntos\">.</span>",
+  "proyectosDescripcionBurgueHub": "E-commerce website for a burger shop with localStorage persistence (<em>hackathon project</em>)<span class=\"puntos\">.</span>",
 
   "verDespliegue": "View demo → | ",
   "verCodigo": "View on GitHub → ",

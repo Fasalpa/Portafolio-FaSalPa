@@ -10,7 +10,7 @@
 
   "heroSaludo": "Hola, soy Fabián",
   "heroTitulo": "Desarrollo experiencias web con enfoque <span class=\"resaltado\">visual y funcional</span><span class=\"puntos\">.</span>",
-  "heroDescripcion": "Desarrollador Frontend enfocado en el diseño limpio, la usabilidad y la creación de interfaces web atractivas<span class=\"puntos\">.</span>",
+  "heroDescripcion": "Desarrollador Full Stack enfocado en el diseño limpio, la usabilidad y la creación de interfaces web atractivas<span class=\"puntos\">.</span>",
   "heroProyectos": "Ver proyectos →",
 
   "proyectosDescripcion": "LO QUE HE CONSTRUIDO",
@@ -28,7 +28,7 @@
   "sobreMiSegundoTexto": "Tengo experiencia en soporte, redes de datos y enseñanza, lo que me permitió desarrollar habilidades técnicas, comunicación efectiva y resolución de problemas<span class=\"puntos\">.</span>",
   "sobreMiTercerTexto": "Me interesa crear interfaces que puedan ser utilizadas por la mayor cantidad de personas posible. Por eso este portafolio incorpora buenas prácticas de accesibilidad como navegación por teclado, etiquetas semánticas, contraste adecuado y una paleta amigable para personas con daltonismo<span class=\"puntos\">.</span>",
   "sobreMiCuartoTexto": "Actualmente sigo aprendiendo y mejorando mis habilidades en desarrollo web, backend con Java y Spring Boot<span class=\"puntos\">.</span>",
-  "btnDescargarCv": "Descargar cv",
+  "btnDescargarCv": "Cv",
   "sobreMiProyectos": "Proyectos",
   "sobreMiAprendiendo": "Años aprendiendo",
   "sobreMiMotivacion": "Motivación",
@@ -54,6 +54,7 @@
   "contactoDescripcion": "CONTACTO",
   "contactoTitulo": "¿Construimos algo juntos?",
   "contactoDescripcionLarga": "Si tienes una idea, buscas colaboración o simplemente quieres conversar sobre tecnología, estaré encantado de escucharte<span class=\"puntos\">.</span>",
+  "btnCopiar": "copiar",
   "contactoCv": "Descargar cv",
   "contactoMail": "Escríbeme",
   "footerDescripcion": "Desarrollo experiencias web donde el diseño y la funcionalidad trabajan juntos<span class=\"puntos\">.</span>",

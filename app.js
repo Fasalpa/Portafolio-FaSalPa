@@ -106,6 +106,7 @@ const elementos = {
   contactoDescripcion: document.getElementById("contactoDescripcion"),
   contactoTitulo: document.getElementById("contactoTitulo"),
   contactoDescripcionLarga: document.getElementById("contactoDescripcionLarga"),
+  btnCopiar: document.getElementById("btnCopiar"),
   contactoCv: document.getElementById("contactoCv"),
   contactoMail: document.getElementById("contactoMail"),
 
@@ -205,6 +206,7 @@ async function cargarIdioma(lang) {
   elementos.footerFormacion.textContent = texto.footerFormacion;
   elementos.footerDescripcionFinal.innerHTML = texto.footerDescripcionFinal;
 
+  elementos.btnCopiar.textContent = texto.btnCopiar;
   elementos.btnCv.textContent = texto.btnCv;
   elementos.btnCv.href = texto.cvUrl;
   elementos.btnDescargarCv.textContent = texto.btnCv;

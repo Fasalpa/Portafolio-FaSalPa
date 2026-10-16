@@ -17,7 +17,7 @@
   "proyectosH2": "Proyectos<span class=\"puntos\">.</span>",
   "proyectosDescripcionTerraViva": "Desarrollo de una plataforma web de reservas para alojamientos rurales, diseñada con un enfoque en usabilidad, accesibilidad y diseño responsivo<span class=\"puntos\">.</span>",
   "proyectosDescripcionBurgueHub": "Página ecommerce de venta de hamburguesas con persistencia en localStorage (hackaton)<span class=\"puntos\">.</span>",
-  "proyectosDescripcionNotasRapidas": "Aplicación web interactiva desarrollada con JavaScript Vanillay CSS modular<span class=\"puntos\">.</span> Incluye operaciones CRUD completas,personalización de temas, seguimiento del estado de ánimo, ylógica temporal avanzada (cápsulas bloqueadas yautodestrucción en tiempo real con persistencia en localStorage)<span class=\"puntos\">.</span>",
+  "proyectosDescripcionNotasRapidas": "Aplicación web interactiva desarrollada con Java, Spring Boot, JavaScript Vanilla y CSS modular<span class=\"puntos\">.</span> Incluye operaciones CRUD completas,personalización de temas, seguimiento del estado de ánimo, ylógica temporal avanzada (cápsulas bloqueadas y autodestrucción en tiempo real con persistencia en Render)<span class=\"puntos\">.</span>",
 
   "verDespliegue": "Ver despliegue → |",
   "verCodigo": "Ver código →",
@@ -43,7 +43,7 @@
   "educacionTecnico": "Técnico en Sistemas",
   "educacionTecnicoDescripcion": "Primer acercamiento al mundo tecnológico, soporte y mantenimiento de equipos y switch.",
   "educacionTecnologo": "Tecnólogo en Gestión de Redes de Datos",
-  "educacionTecnologoDescripcion": "TRedes, servidores, infraestructura y resolución de problemas técnicos<span class=\"puntos\">.</span>",
+  "educacionTecnologoDescripcion": "Redes, servidores, infraestructura y resolución de problemas técnicos<span class=\"puntos\">.</span>",
   "educacionPlatzi": "Desarrollador Full Stack",
   "educacionPlatziDescripcion": "Formación continua en Platzi, enfocada en desarrollo Full Stack, actualización tecnológica y el fortalecimiento constante de habilidades prácticas<span class=\"puntos\">.</span>",
   "educacionEstado": "En proceso",
